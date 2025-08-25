@@ -1,0 +1,253 @@
+html {
+  font-family: "Noto Sans JP", "Roboto", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.englich-text {
+  font-family: "Noto Sans JP", "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* --------------- */
+
+.fv {
+  height: 2180px;
+}
+
+.bg_img {
+  background-image: url("../img/pc/25_スキルリレー_design@2x\ 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px;
+  padding-top: 40px;
+  
+}
+
+.logo_content_flex {
+  background-color: #FFF;
+  width: 1760px;
+  height: 80px;
+  margin: 0px auto 63px auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo_content_flex img {
+}
+
+.logo_img {
+  margin-left: 40px;
+}
+
+.button_img {
+  margin-right: 37px;
+  width: 255px;
+  height: 60px;
+  margin-top: 5px;
+}
+
+.sub_title_content {
+  border: solid 1px #FFF;
+  border-radius: 4px;
+  width: 880px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(131, 153, 220, 0.1);
+  margin-bottom: 40px;
+}
+
+.sub_title_text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.catchphrase_img_content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.intai_text_content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.intai_text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button_content_flex {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.dl_button_content a {
+  position: relative;
+}
+
+.dl_button_bgimg {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/pc/Rectangle\ 4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  gap: 12px;
+  background-size: contain;
+  width: 400px;
+  height: 60px;
+}
+
+.dl_text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF
+}
+
+.icon_img {
+  width: 26px;
+  height: 26px;
+}
+
+.rectangle_img {
+  width: 400px;
+  height: 60px;
+}
+
+.donu_button_rectangle {
+  border: solid 1px #171E2B;
+  border-radius: 4px;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+}
+
+.donu_text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #171E2B;
+}
+
+.chat_img_content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 124px;
+}
+
+.blue_rectangle {
+  width: 10px;
+  height: 10px;
+  background-color: #0192E2;
+}
+
+.blue_rectangle_content {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 28px;
+}
+
+.blue_rectangle p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.blue_rectangle_text {
+  letter-spacing: 1.5px;
+}
+
+.usinaware_text_content p {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.blue_rectangle_content,
+.usinaware_text_content,
+.beleran_text_content {
+  margin-left: 310px;
+}
+
+.usinaware_text_content {
+  margin-bottom: 23px;
+}
+
+.beleran_text_content {
+  margin-bottom: 60px;
+}
+
+.beleran_text_content p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.box_content_flex {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 152px;
+}
+
+.white_box {
+  background-color: #FFF;
+  width: 410px;
+  height: 280px;
+  border-radius: 10px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+}
+
+.white_box img {
+  margin-top: 37px;
+  margin-bottom: 32px;
+}
+
+.white_box p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.white_box span {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  width: 362px;
+}
+
+.white_box img,
+.white_box p,
+.white_box span {
+  margin-left: 24px;
+}
+
+.solution_section {
+  background-image: url("../img/pc/Mask\ group\ \(3\).png");
+  width: 1920px;
+  height: 1022px;
+
+}
