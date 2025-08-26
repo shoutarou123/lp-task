@@ -19,6 +19,7 @@
     <div class="bg_img">
       <div class="logo_content_flex">
         <img class="logo_img" src="./img/pc/グループ 18 1.png" />
+        <img class="logo_img_sp hidden" src="./img/sp/Clip path group.png" />
         <img class="button_img" src="./img/pc/Group 5.png" />
       </div>
 
@@ -39,6 +40,7 @@
           <a class="dl_button_bgimg" href="#">
             <span class="dl_text">ホワイトペーパーを無料DL</span>
             <img class="icon_img" src="./img/pc/グループ 491 1.png" />
+            <img class="icon_img_sp hidden" src="./img/sp/Group 6.png" />
           </a>
         </div>
         <div class="donu_button_content">
@@ -81,7 +83,7 @@
 
           <div class="beteran_text_content">
             <p>ベテランの退職や異動で途切れがちなノウハウ。</p>
-            <p>いま資産化に取り組むことで、継続的な成長と競争力強化につなげられます。</p>
+            <p class="p2">いま資産化に取り組むことで、継続的な成長と競争力強化につなげられます。</p>
           </div>
         </div>
       </div>

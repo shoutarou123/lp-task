@@ -50,6 +50,10 @@ li {
   margin-left: 52px;
 }
 
+.logo_img_sp.hidden {
+  display: none;
+}
+
 .button_img {
   margin-right: 32px;
   width: 262px;
@@ -132,6 +136,10 @@ li {
 .icon_img {
   width: 26px;
   height: 26px;
+}
+
+.icon_img_sp.hidden {
+  display: none;
 }
 
 .rectangle_img {
@@ -837,4 +845,132 @@ li {
   .white_box span {
     font-size: 14px;
   }
+}
+
+@media screen and (max-width: 375px) {
+  .fv {
+    height: 1730px;
+  }
+
+  .bg_img {
+    background-image: url("../img/sp/25_スキルリレー_design@3x\ 2.png");
+    height: 580px;
+  }
+
+  .logo_content_flex {
+    height: 60px;
+  }
+
+  .logo_img {
+    display: none;
+  }
+
+  .logo_img_sp.hidden {
+    display: block;
+    margin-left: 16px;
+  }
+
+  .sub_title_content {
+    height: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 18px;
+  }
+
+  .sub_title_text {
+    padding: 0px;
+  }
+
+  .catchphrase_img_content {
+    margin-bottom: 28px;
+  }
+
+  .catchphrase_img.hidden {
+    width: auto;
+    height: 145px;
+  }
+
+  .intai_text_content {
+    margin-bottom: 35px;
+  }
+
+  .button_content_flex {
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .icon_img {
+    display: none;
+  }
+
+  .icon_img_sp.hidden {
+    display: block;
+  }
+
+  .button_content_flex_sp.hidden {
+    margin-top: -16px;
+    padding-top: 12px;
+  }
+
+  .flex {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .blue_rectangle_content {
+    margin-bottom: 12px;
+  }
+
+  .blue_rectangle_text {
+    letter-spacing: 0px;
+    margin-top: -4px;
+}
+
+.usinaware_text_content {
+  padding-right: 10px;
+}
+
+.beteran_text_content p {
+  display: inline;
+}
+
+.p2 {
+  margin-left: -3px;
+  line-height: 27px;
+}
+
+.box_content_flex {
+  padding-left: 16px;
+  padding-right: 16px;
+  gap: 18px;
+  padding-bottom: 52px;
+}
+
+
+.white_box img,
+.white_box p,
+.white_box span {
+    margin-left: 16px;
+}
+
+.white_box img {
+  margin-top: 20px;
+}
+
+.white_box span {
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
