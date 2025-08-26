@@ -32,37 +32,33 @@ li {
   background-size: cover;
   height: 1080px;
   padding-top: 40px;
-  
 }
 
 .logo_content_flex {
-  background-color: #FFF;
-  width: 1760px;
+  background-color: #fff;
+  width: clamp(1px, 92.2916vw, 1772px);
   height: 80px;
   margin: 0px auto 63px auto;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px;
-}
-
-.logo_content_flex img {
+  margin-bottom: 62px;
 }
 
 .logo_img {
-  margin-left: 40px;
+  margin-left: 52px;
 }
 
 .button_img {
-  margin-right: 37px;
-  width: 255px;
-  height: 60px;
+  margin-right: 32px;
+  width: 262px;
+  height: 66px;
   margin-top: 5px;
 }
 
 .sub_title_content {
-  border: solid 1px #FFF;
+  border: solid 1px #fff;
   border-radius: 4px;
   width: 880px;
   height: 60px;
@@ -85,6 +81,10 @@ li {
   margin-bottom: 50px;
 }
 
+.catchphrase_img.hidden {
+  display: none;
+}
+
 .intai_text_content {
   display: flex;
   justify-content: center;
@@ -94,6 +94,8 @@ li {
 .intai_text {
   font-size: 20px;
   font-weight: 500;
+  /* letter-spacing: 0.49px; */
+  /* margin-left: 20px; */
 }
 
 .button_content_flex {
@@ -124,7 +126,7 @@ li {
 .dl_text {
   font-size: 20px;
   font-weight: bold;
-  color: #FFF
+  color: #fff;
 }
 
 .icon_img {
@@ -138,20 +140,20 @@ li {
 }
 
 .donu_button_rectangle {
-  border: solid 1px #171E2B;
+  border: solid 1px #171e2b;
   border-radius: 4px;
   width: 400px;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .donu_text {
   font-size: 20px;
   font-weight: bold;
-  color: #171E2B;
+  color: #171e2b;
 }
 
 .chat_img_content {
@@ -160,17 +162,34 @@ li {
   margin-bottom: 124px;
 }
 
-.blue_rectangle {
-  width: 10px;
-  height: 10px;
-  background-color: #0192E2;
+.chat_img.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.button_content_flex_sp.hidden {
+  display: none;
+}
+
+.section_text_content {
+  width: 1300px;
 }
 
 .blue_rectangle_content {
   display: flex;
   align-items: center;
-  gap: 9px;
-  margin-bottom: 28px;
+  gap: 8px;
+  margin-bottom: 26px;
+}
+
+.blue_rectangle {
+  width: 10px;
+  height: 10px;
+  background-color: #0192e2;
 }
 
 .blue_rectangle p {
@@ -179,7 +198,7 @@ li {
 }
 
 .blue_rectangle_text {
-  letter-spacing: 1.5px;
+  letter-spacing: 1.6px;
 }
 
 .usinaware_text_content p {
@@ -187,23 +206,18 @@ li {
   font-weight: 900;
 }
 
-.blue_rectangle_content,
-.usinaware_text_content,
-.beleran_text_content {
-  margin-left: 310px;
-}
-
 .usinaware_text_content {
   margin-bottom: 23px;
 }
 
-.beleran_text_content {
-  margin-bottom: 60px;
+.beteran_text_content {
+  margin-bottom: 64px;
 }
 
-.beleran_text_content p {
+.beteran_text_content p {
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 2px;
 }
 
 .box_content_flex {
@@ -214,7 +228,7 @@ li {
 }
 
 .white_box {
-  background-color: #FFF;
+  background-color: #fff;
   width: 410px;
   height: 280px;
   border-radius: 10px;
@@ -222,8 +236,8 @@ li {
 }
 
 .white_box img {
-  margin-top: 37px;
-  margin-bottom: 32px;
+  margin-top: 33px;
+  margin-bottom: 30px;
 }
 
 .white_box p {
@@ -247,7 +261,580 @@ li {
 
 .solution_section {
   background-image: url("../img/pc/Mask\ group\ \(3\).png");
-  width: 1920px;
   height: 1022px;
+}
 
+.blue_rectangle_content.solution {
+  padding-top: 122px;
+  margin-bottom: 28px;
+}
+
+.blue_rectangle_text.white {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.usinaware_text_content.solution {
+  margin-bottom: 22px;
+}
+
+.usinaware_text_content.solution p {
+  color: #fff;
+}
+
+.beteran_text_content.solution p {
+  color: #fff;
+}
+
+/* ************* SOLUTION セクション ******************** */
+.rectangle_solution_contents_flex {
+  display: flex;
+}
+
+.rectangle_solution {
+  margin-left: 310px;
+}
+
+.rectangle_solution_flex {
+  border: solid 1px #fff;
+  width: 590px;
+  height: 154px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 22px;
+}
+
+.rectangle_solution_text_content p,
+.rectangle_solution_text_content span {
+  color: #fff;
+}
+
+.rectangle_solution_text_content p {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: -5px;
+  margin-bottom: 11px;
+}
+
+.rectangle_solution_text_content span {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  width: 458px;
+}
+
+.earth_content_block {
+  margin-left: 90px;
+}
+
+.earth_bg_img {
+  background-image: url("../img/pc/25_スキルリレー_design@2x\ 4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 511px;
+  height: 510px;
+}
+
+.fukidashi_bg_img {
+  background-image: url("../img/pc/Union.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+.fukidashi_content {
+  padding-top: 102px;
+  padding-left: 320px;
+}
+
+.fukidashi_bg_img p {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  width: 174px;
+  text-align: center;
+  line-height: 28px;
+  margin-left: 16px;
+}
+
+.fukidashi_bg_img.two p {
+  width: 140px;
+}
+
+.fukidashi_bg_img.three p {
+  width: 180px;
+}
+
+@media screen and (max-width: 1360px) {
+  .catchphrase_img {
+    width: 1000px;
+    height: auto;
+  }
+
+  .section_text_content {
+    width: 1000px;
+  }
+
+  .white_box {
+    width: 300px;
+    height: auto;
+  }
+
+  .white_box span {
+    width: 260px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .sub_title_content {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .sub_title_text {
+    text-align: center;
+    width: 420px;
+  }
+
+  .catchphrase_img {
+    width: 800px;
+    height: auto;
+  }
+
+  .intai_text {
+    width: 500px;
+    text-align: center;
+  }
+
+  .dl_button_bgimg {
+    width: 300px;
+  }
+
+  .dl_text {
+    font-size: 16px;
+  }
+
+  .donu_button_content {
+    display: flex;
+    align-items: center;
+  }
+
+  .donu_text {
+    font-size: 16px;
+  }
+
+  .donu_button_rectangle {
+    width: 300px;
+    height: 46px;
+  }
+
+  .chat_img_content img {
+    width: 720px;
+    height: auto;
+  }
+
+  .section_text_content {
+    width: 710px;
+  }
+
+  .white_box {
+    width: 220px;
+  }
+
+  .white_box span {
+    font-size: 16px;
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .bg_img {
+    padding-top: 0px;
+  }
+
+  .logo_content_flex {
+    width: auto;
+    border: none;
+    border-radius: 0px;
+  }
+
+  .button_img {
+    display: none;
+  }
+
+  .sub_title_content {
+    width: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .sub_title_text {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .catchphrase_img {
+    display: none;
+  }
+
+  .catchphrase_img.hidden {
+    display: block;
+    width: 700px;
+  }
+
+  .intai_text {
+    font-size: 22px;
+    text-align: left;
+    width: 540px;
+  }
+
+  .button_content_flex {
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .dl_button_bgimg {
+    background-image: url("../img/sp/Rectangle\ 4\ \(1\).png");
+    width: 400px;
+  }
+
+  .dl_text,
+  .donu_text {
+    font-size: 22px;
+  }
+
+  .donu_button_rectangle {
+    width: 400px;
+    height: 54px;
+  }
+
+  .chat_img_content {
+    margin-bottom: 0px;
+  }
+
+  .chat_img_content img {
+    display: none;
+  }
+
+  .chat_img.hidden {
+    display: block;
+  }
+
+  .button_content_flex_sp.hidden {
+    background-image: url("../img/sp/Rectangle\ 80.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-top: -30px;
+    position: relative;
+    z-index: 99;
+  }
+
+  .bg_blue_button {
+    background-image: url("../img/sp/Rectangle\ 78.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg_blue_button p,
+  .box_button p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .bg_blue_button p {
+    width: 210px;
+    text-align: center;
+  }
+
+  .box_button {
+    border: solid 1px #171e2b;
+    background-color: #fff;
+    width: 300px;
+    height: 78px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box_button p {
+    color: #171e2b;
+  }
+
+  .flex {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 10%,
+      rgba(249, 249, 249, 1) 100%
+    );
+  }
+
+  .blue_rectangle {
+    width: 14px;
+    height: 14px;
+  }
+
+  .blue_rectangle_text {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .usinaware_text_content p {
+    width: auto;
+  }
+
+  .box_content_flex {
+    background-color: #f9f9f9;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .white_box {
+    width: 600px;
+    height: auto;
+  }
+
+  .white_box img {
+    width: auto;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .white_box p {
+    font-size: 24px;
+  }
+
+  .white_box span {
+    font-size: 22px;
+    width: auto;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .catchphrase_img.hidden {
+    width: 600px;
+  }
+
+  .chat_img.hidden {
+    width: 600px;
+  }
+
+  .section_text_content {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .catchphrase_img.hidden {
+    width: 550px;
+  }
+
+  .chat_img.hidden {
+    width: 500px;
+  }
+
+  .bg_blue_button,
+  .box_button {
+    width: 200px;
+  }
+
+  .bg_blue_button p {
+    font-size: 18px;
+    width: 170px;
+  }
+
+  .box_button p {
+    font-size: 18px;
+  }
+
+  .button_content_flex_sp.hidden {
+    margin-top: -20px;
+    gap: 10px;
+  }
+
+  .flex {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .section_text_content {
+    width: auto;
+  }
+
+  .box_content_flex {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .white_box {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .sub_title_text {
+    font-size: 18px;
+    width: 320px;
+  }
+
+  .catchphrase_img.hidden {
+    width: 450px;
+  }
+
+  .intai_text_content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .intai_text {
+    font-size: 18px;
+    width: auto;
+  }
+
+  .chat_img.hidden {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fv {
+    height: 2000px;
+  }
+
+  .logo_content_flex {
+    margin-bottom: 24px;
+  }
+
+  .sub_title_content {
+    margin-bottom: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .sub_title_text {
+    font-size: 16px;
+    width: 280px;
+  }
+
+  .catchphrase_img_content {
+    margin-bottom: 34px;
+  }
+
+  .catchphrase_img.hidden {
+    width: 350px;
+  }
+
+  .intai_text_content {
+    margin-bottom: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .intai_text {
+    font-size: 14px;
+    width: 340px;
+  }
+
+  .dl_button_bgimg {
+    width: 343px;
+    height: 50px;
+  }
+
+  .button_content_flex {
+    margin-bottom: 50px;
+  }
+
+  .dl_text,
+  .donu_text {
+    font-size: 16px;
+  }
+
+  .donu_button_rectangle {
+    width: 341px;
+    height: 48px;
+  }
+
+  .bg_blue_button {
+    width: 172px;
+    height: 40px;
+  }
+
+  .bg_blue_button p,
+  .box_button p {
+    font-size: 12px;
+  }
+
+  .box_button {
+    width: 172px;
+    height: 38px;
+  }
+
+  .blue_rectangle {
+    width: 8px;
+    height: 8px;
+  }
+
+  .blue_rectangle_text {
+    font-size: 14px;
+  }
+
+  .chat_img.hidden {
+    width: 343px;
+  }
+
+  .usinaware_text_content p {
+    font-size: 24px;
+  }
+
+  .beteran_text_content {
+    margin-bottom: 30px;
+  }
+
+  .beteran_text_content p {
+    font-size: 16px;
+  }
+
+  .white_box img {
+    width: 46px;
+    height: 46px;
+  }
+
+  .white_box p {
+    font-size: 16px;
+  }
+
+  .white_box span {
+    font-size: 14px;
+  }
 }
