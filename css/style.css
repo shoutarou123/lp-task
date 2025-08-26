@@ -47,7 +47,7 @@ li {
 }
 
 .logo_img {
-  margin-left: 52px;
+  margin-left: 48px;
 }
 
 .logo_img_sp.hidden {
@@ -267,16 +267,6 @@ li {
   margin-left: 24px;
 }
 
-.solution_section {
-  background-image: url("../img/pc/Mask\ group\ \(3\).png");
-  height: 1022px;
-}
-
-.blue_rectangle_content.solution {
-  padding-top: 122px;
-  margin-bottom: 28px;
-}
-
 .blue_rectangle_text.white {
   color: #fff;
   letter-spacing: 1px;
@@ -290,22 +280,54 @@ li {
   color: #fff;
 }
 
+.sono_text.hidden,
+.skill_text.hidden {
+  display: none;
+}
+
 .beteran_text_content.solution p {
   color: #fff;
 }
 
-/* ************* SOLUTION セクション ******************** */
-.rectangle_solution_contents_flex {
-  display: flex;
+.zokujin_text_sp.hidden {
+  display: none;
 }
 
-.rectangle_solution {
-  margin-left: 310px;
+.earth_img_sp.hidden {
+  display: none;
+}
+
+/* ************* SOLUTION セクション ******************** */
+.solution_section {
+  background-image: url("../img/pc/Mask\ group\ \(3\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1022px;
+}
+
+.center_content {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.blue_rectangle_content.solution {
+  padding-top: 122px;
+  margin-bottom: 28px;
+}
+
+.rectangle_solution_contents_flex {
+  display: flex;
+  width: 1300px;
+  margin: 0 auto;
+  /* background-color: #0192e2; */
 }
 
 .rectangle_solution_flex {
   border: solid 1px #fff;
-  width: 590px;
+  width: 100%;
+  padding-left: 11px;
+  padding-right: 11px;
   height: 154px;
   border-radius: 10px;
   display: flex;
@@ -335,7 +357,7 @@ li {
 }
 
 .earth_content_block {
-  margin-left: 90px;
+  margin-left: 116px;
 }
 
 .earth_bg_img {
@@ -384,6 +406,13 @@ li {
   width: 180px;
 }
 
+/*  */
+.damy {
+  width: 2000px;
+  background-color: aqua;
+}
+/*  */
+
 @media screen and (max-width: 1360px) {
   .catchphrase_img {
     width: 1000px;
@@ -402,6 +431,49 @@ li {
   .white_box span {
     width: 260px;
     margin-bottom: 24px;
+  }
+
+  .center_content {
+    width: 910px;
+  }
+
+  .blue_rectangle_content.solution {
+    padding-top: 70px;
+  }
+
+  .rectangle_solution_contents_flex {
+    width: 1000px;
+  }
+
+  .rectangle_solution_flex {
+    width: 420px;
+  }
+
+  .rectangle_solution_text_content span {
+    width: 300px;
+  }
+
+  .earth_content_block {
+    margin-left: 0px;
+  }
+
+  .earth_bg_img {
+    height: 400px;
+    margin-top: 40px;
+  }
+
+  .fukidashi_content {
+    padding-top: 40px;
+  }
+
+  .fukidashi_bg_img {
+    width: 230px;
+  }
+
+  .fukidashi_bg_img p {
+    margin-left: 0px;
+    font-size: 16px;
+    width: 130px;
   }
 }
 
@@ -466,9 +538,79 @@ li {
     font-size: 16px;
     width: 170px;
   }
+
+  .center_content {
+    width: 755px;
+  }
+
+  .blue_rectangle_content.solution {
+    padding-top: 100px;
+  }
+
+  .rectangle_solution_contents_flex {
+    width: 710px;
+  }
+
+  .rectangle_solution_flex {
+    width: 310px;
+    height: 130px;
+    gap: 10px;
+  }
+
+  .check_img_content img {
+    width: 40px;
+    height: auto;
+  }
+
+  .rectangle_solution_text_content span {
+    width: 240px;
+  }
+
+  .rectangle_solution_text_content p {
+    font-size: 20px;
+  }
+
+  .rectangle_solution_text_content span {
+    font-size: 16px;
+  }
+
+  .earth_content_block {
+    margin-left: -50px;
+  }
+
+  .earth_bg_img {
+    height: 360px;
+    margin-top: 36px;
+  }
+
+  .fukidashi_content {
+    padding-left: 280px;
+  }
+
+  .fukidashi_bg_img {
+    width: 190px;
+  }
+
+  .fukidashi_bg_img p {
+    font-size: 14px;
+    line-height: 18px;
+    width: 120px;
+  }
+
+  .fukidashi_bg_img.two p {
+    width: 110px;
+  }
+
+  .fukidashi_bg_img.three p {
+    width: 120px;
+  }
 }
 
 @media screen and (max-width: 850px) {
+  .fv {
+    height: 2750px;
+  }
+
   .bg_img {
     padding-top: 0px;
   }
@@ -625,6 +767,7 @@ li {
     background-color: #f9f9f9;
     flex-flow: column;
     align-items: center;
+    padding-bottom: 95px;
   }
 
   .white_box {
@@ -647,6 +790,112 @@ li {
     width: auto;
     margin-right: 24px;
   }
+
+/* ******* sulution セクション ******** */
+.solution_section {
+  height: 1530px;
+}
+
+  .solution_flex_sp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .center_content {
+    width: 550px;
+  }
+
+  .usinaware_text_content.solution p {
+    display: none;
+  }
+
+  .sono_text.hidden,
+  .skill_text.hidden {
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    font-weight:900 ;
+  }
+
+    .skill_text.hidden {
+      margin-left: -20px;
+    }
+
+.beteran_text_content {
+    margin-bottom: 30px;
+}
+
+  .beteran_text_content.solution p {
+   display: none;
+  }
+
+
+  .zokujin_text_sp.hidden {
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    width: 520px;
+  }
+
+  .earth_img_sp.hidden {
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+  }
+
+  .earth_img_sp.hidden img{
+    width: 500px;
+    height: auto;
+  }
+
+  .rectangle_solution_contents_flex {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 565px;
+  }
+
+  .rectangle_solution_flex {
+        width: 530px;
+        height: 165px;
+        gap: 25px;
+  }
+
+  .earth_content_block {
+    display: none;
+  }
+
+  .check_img_content img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .rectangle_solution_text_content p {
+    font-size: 26px;
+  }
+
+  .rectangle_solution_text_content span {
+    font-size: 22px;
+    width: 416px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 750px) {
@@ -924,53 +1173,39 @@ li {
   .blue_rectangle_text {
     letter-spacing: 0px;
     margin-top: -4px;
-}
+  }
 
-.usinaware_text_content {
-  padding-right: 10px;
-}
+  .usinaware_text_content {
+    padding-right: 10px;
+  }
 
-.beteran_text_content p {
-  display: inline;
-}
+  .beteran_text_content p {
+    display: inline;
+  }
 
-.p2 {
-  margin-left: -3px;
-  line-height: 27px;
-}
+  .p2 {
+    margin-left: -3px;
+    line-height: 27px;
+  }
 
-.box_content_flex {
-  padding-left: 16px;
-  padding-right: 16px;
-  gap: 18px;
-  padding-bottom: 52px;
-}
+  .box_content_flex {
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 18px;
+    padding-bottom: 52px;
+  }
 
-
-.white_box img,
-.white_box p,
-.white_box span {
+  .white_box img,
+  .white_box p,
+  .white_box span {
     margin-left: 16px;
-}
+  }
 
-.white_box img {
-  margin-top: 20px;
-}
+  .white_box img {
+    margin-top: 20px;
+  }
 
-.white_box span {
+  .white_box span {
     margin-right: 8px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 }

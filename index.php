@@ -117,24 +117,33 @@
   </section>
 
   <section class="solution_section">
+    <div class="solution_flex_sp">
+      <div class="center_content">
+        <div class="blue_rectangle_content solution">
+          <div class="blue_rectangle"></div>
+          <p class="blue_rectangle_text white">SOLUTION</p>
+        </div>
 
-    <div class="blue_rectangle_content solution">
-      <div class="blue_rectangle"></div>
-      <p class="blue_rectangle_text white">SOLUTION</p>
+        <div class="usinaware_text_content solution">
+          <p>その課題、AIナレッジ基盤「SkillRelay」で解決します。</p>
+          <span class="sono_text hidden">その課題、AIナレッジ基盤</span>
+          <span class="skill_text hidden">「SkillRelay」で解決します。</span>
+        </div>
+
+        <div class="beteran_text_content solution">
+          <p>属人化したノウハウを可視化・体系化し、誰もが使える資産へ。 </p>
+          <p>熟練者の判断や経験を組織全体で共有し、継続的な成長と競争力強化を実現します。</p>
+          <span class="zokujin_text_sp hidden">属人化したノウハウを可視化・体系化し、誰もが使える資産へ。熟練者の判断や経験を組織全体で共有し、継続的な成長と競争力強化を実現します。</span>
+        </div>
+      </div>
     </div>
 
-    <div class="usinaware_text_content solution">
-      <p>その課題、AIナレッジ基盤「SkillRelay」で解決します。</p>
-    </div>
-
-    <div class="beteran_text_content solution">
-      <p>属人化したノウハウを可視化・体系化し、誰もが使える資産へ。 </p>
-      <p>熟練者の判断や経験を組織全体で共有し、継続的な成長と競争力強化を実現します。</p>
+    <div class="earth_img_sp hidden">
+      <img src="./img/sp/Group 3 1.png" />
     </div>
 
 
     <div class="rectangle_solution_contents_flex">
-
       <div class="rectangle_solution">
         <div class="rectangle_solution_flex">
           <div class="check_img_content">
@@ -168,7 +177,6 @@
       </div>
 
       <div class="earth_content_block">
-
         <div class="earth_bg_img">
           <div class="fukidashi_content">
             <div class="fukidashi_bg_img">
@@ -186,16 +194,18 @@
                 教育・育成のコストを削減できる
               </p>
             </div>
-
           </div>
-
-
         </div>
       </div>
 
     </div>
 
 
+  </section>
+
+  <section>
+    <p class="damy">ああああああああああああ
+    <p>
   </section>
 
 
@@ -210,9 +220,6 @@
 
 
 
-
-
-  <script src="./js/index.js"></script>
 </body>
 
 </html>
