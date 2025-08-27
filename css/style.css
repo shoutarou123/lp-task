@@ -228,6 +228,10 @@ li {
   margin-bottom: 2px;
 }
 
+.beteran_text_content span {
+  display: none;
+}
+
 .box_content_flex {
   display: flex;
   justify-content: center;
@@ -767,7 +771,7 @@ li {
     background-color: #f9f9f9;
     flex-flow: column;
     align-items: center;
-    padding-bottom: 95px;
+    padding-bottom: 130px;
   }
 
   .white_box {
@@ -791,10 +795,10 @@ li {
     margin-right: 24px;
   }
 
-/* ******* sulution セクション ******** */
-.solution_section {
-  height: 1530px;
-}
+  /* ******* sulution セクション ******** */
+  .solution_section {
+    height: 1530px;
+  }
 
   .solution_flex_sp {
     display: flex;
@@ -802,7 +806,7 @@ li {
   }
 
   .center_content {
-    width: 550px;
+    width: 540px;
   }
 
   .usinaware_text_content.solution p {
@@ -814,21 +818,20 @@ li {
     display: block;
     font-size: 40px;
     color: #fff;
-    font-weight:900 ;
+    font-weight: 900;
   }
 
-    .skill_text.hidden {
-      margin-left: -20px;
-    }
+  .skill_text.hidden {
+    margin-left: -20px;
+  }
 
-.beteran_text_content {
+  .beteran_text_content {
     margin-bottom: 30px;
-}
+  }
 
   .beteran_text_content.solution p {
-   display: none;
+    display: none;
   }
-
 
   .zokujin_text_sp.hidden {
     display: block;
@@ -845,7 +848,7 @@ li {
     margin-bottom: 36px;
   }
 
-  .earth_img_sp.hidden img{
+  .earth_img_sp.hidden img {
     width: 500px;
     height: auto;
   }
@@ -858,9 +861,9 @@ li {
   }
 
   .rectangle_solution_flex {
-        width: 530px;
-        height: 165px;
-        gap: 25px;
+    width: 530px;
+    height: 165px;
+    gap: 25px;
   }
 
   .earth_content_block {
@@ -880,25 +883,13 @@ li {
     font-size: 22px;
     width: 416px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media screen and (max-width: 750px) {
+  .fv {
+    height: 2640px;
+  }
+
   .catchphrase_img.hidden {
     width: 600px;
   }
@@ -913,6 +904,10 @@ li {
 }
 
 @media screen and (max-width: 650px) {
+  .fv {
+    height: 2600px;
+  }
+
   .catchphrase_img.hidden {
     width: 550px;
   }
@@ -952,6 +947,7 @@ li {
   .box_content_flex {
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 200px;
   }
 
   .white_box {
@@ -960,6 +956,10 @@ li {
 }
 
 @media screen and (max-width: 580px) {
+  .fv {
+    height: 2400px;
+  }
+
   .sub_title_text {
     font-size: 18px;
     width: 320px;
@@ -982,11 +982,78 @@ li {
   .chat_img.hidden {
     width: 450px;
   }
+
+  .usinaware_text_content p,
+  .sono_text.hidden,
+  .skill_text.hidden {
+    font-size: 30px;
+  }
+
+  .beteran_text_content p,
+  .zokujin_text_sp.hidden {
+    font-size: 20px;
+  }
+
+  .white_box p,
+  .rectangle_solution_text_content p {
+    font-size: 24px;
+  }
+
+  .white_box span,
+  .rectangle_solution_text_content span {
+    font-size: 18px;
+  }
+
+  /* ************ solution section ************** */
+  .solution_section {
+    height: 1380px;
+  }
+
+  .center_content {
+    width: 400px;
+  }
+
+  .zokujin_text_sp.hidden {
+    width: 430px;
+  }
+
+  .earth_img_sp.hidden img {
+    width: 370px;
+  }
+
+  .rectangle_solution_contents_flex {
+    width: 440px;
+  }
+
+  .rectangle_solution_flex.one,
+  .rectangle_solution_flex.three {
+    width: 406px;
+    gap: 16px;
+  }
+
+  .rectangle_solution_flex.two {
+    padding-left: 16px;
+    width: 400px;
+    gap: 16px;
+  }
+
+  .check_img_content img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .rectangle_solution_text_content span {
+    width: 330px;
+  }
+
+  .rectangle_solution_text_content .tisiki_text {
+    width: 342px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .fv {
-    height: 2000px;
+    height: 1950px;
   }
 
   .logo_content_flex {
@@ -1070,16 +1137,43 @@ li {
     width: 343px;
   }
 
-  .usinaware_text_content p {
+  .usinaware_text_content p,
+  .sono_text.hidden,
+  .skill_text.hidden {
     font-size: 24px;
+  }
+
+  .usinaware_text_content p {
+    width: 316px;
   }
 
   .beteran_text_content {
     margin-bottom: 30px;
   }
 
-  .beteran_text_content p {
+  .beteran_text_content p,
+  .zokujin_text_sp.hidden {
     font-size: 16px;
+  }
+
+  .beteran_text_content p {
+    display: none;
+  }
+
+  .beteran_text_content span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    width: 335px;
+  }
+
+  .box_content_flex {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .white_box {
+    width: 350px;
   }
 
   .white_box img {
@@ -1091,14 +1185,76 @@ li {
     font-size: 16px;
   }
 
-  .white_box span {
+  .white_box span,
+  .rectangle_solution_text_content span {
     font-size: 14px;
+  }
+
+  /* ********* suluion section ************ */
+  .solution_section {
+    height: 1027px;
+  }
+
+  .center_content {
+    width: 350px;
+  }
+
+  .blue_rectangle_content.solution {
+    padding-top: 60px;
+    margin-bottom: 14px;
+  }
+
+  .beteran_text_content.solution {
+    margin-bottom: 14px;
+  }
+
+  .zokujin_text_sp.hidden {
+    width: 340px;
+  }
+
+  .earth_img_sp.hidden img {
+    width: 343px;
+  }
+
+  .rectangle_solution_contents_flex {
+    width: 362px;
+  }
+
+  .rectangle_solution_flex.one,
+  .rectangle_solution_flex.three {
+    width: 330px;
+    gap: 16px;
+  }
+
+  .check_img_content img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .rectangle_solution_flex {
+    height: 112px;
+  }
+
+  .rectangle_solution_flex.two {
+    width: 326px;
+  }
+
+  .rectangle_solution_text_content p {
+    font-size: 18px;
+  }
+
+  .rectangle_solution_text_content span {
+    width: 252px;
+  }
+
+  .rectangle_solution_text_content .tisiki_text {
+    width: 270px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .fv {
-    height: 1730px;
+    height: 1714px;
   }
 
   .bg_img {
@@ -1162,12 +1318,12 @@ li {
   }
 
   .flex {
-    padding-left: 16px;
+    padding-left: 7px;
     padding-right: 16px;
   }
 
   .blue_rectangle_content {
-    margin-bottom: 12px;
+    margin-bottom: 11px;
   }
 
   .blue_rectangle_text {
@@ -1177,15 +1333,15 @@ li {
 
   .usinaware_text_content {
     padding-right: 10px;
+    margin-bottom: 22px;
   }
 
-  .beteran_text_content p {
-    display: inline;
+  .beteran_text_content {
+    margin-bottom: 35px;
   }
 
-  .p2 {
-    margin-left: -3px;
-    line-height: 27px;
+  .beteran_text_content span {
+    line-height: 26px;
   }
 
   .box_content_flex {
@@ -1195,6 +1351,10 @@ li {
     padding-bottom: 52px;
   }
 
+  .white_box {
+    width: 345px;
+  }
+
   .white_box img,
   .white_box p,
   .white_box span {
@@ -1202,10 +1362,103 @@ li {
   }
 
   .white_box img {
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   .white_box span {
     margin-right: 8px;
+  }
+
+  /* ********* solution section ********* */
+
+  .center_content {
+    width: 346px;
+  }
+
+  .blue_rectangle_text.white {
+    letter-spacing: 0px;
+  }
+
+  .sono_text.hidden {
+    margin-bottom: -3px;
+  }
+
+  .skill_text.hidden {
+    margin-left: -10px;
+  }
+
+  .kaiketu_text {
+    margin-left: -12px;
+  }
+
+  .zokujin_text_sp.hidden {
+    line-height: 27px;
+  }
+
+  .beteran_text_content.solution {
+    margin-bottom: 34px;
+  }
+
+  .earth_img_sp.hidden {
+    margin-bottom: 28px;
+  }
+
+  .check_img_content {
+    margin-top: 2px;
+    margin-left: -12px;
+  }
+
+  .rectangle_solution_flex.one,
+  .rectangle_solution_flex.three {
+    width: 320px;
+  }
+
+  .rectangle_solution_flex.one,
+  .rectangle_solution_flex.three {
+    height: 110px;
+    margin-left: 0px;
+    gap: none;
+  }
+
+  .rectangle_solution_flex.one {
+    margin-bottom: 11px;
+  }
+
+  .rectangle_solution_text_content p.one {
+    margin-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+  }
+
+  .rectangle_solution_text_content span.one {
+    margin-left: 1px;
+  }
+
+  .rectangle_solution_flex.two {
+    width: 314px;
+     margin-left: 0px;
+     margin-bottom: 11px;
+  }
+
+  .check_img_content.two {
+    margin-left: 5px;
+  }
+
+  .rectangle_solution_text_content.two {
+    margin-top: 8px;
+    margin-bottom: 5px;
+  }
+
+      .rectangle_solution_text_content .tisiki_text {
+    letter-spacing: -0.4px;
+  }
+
+  .rectangle_solution_text_content.three p {
+    margin-top: 0px;
+    margin-bottom: 9px;
+  }
+
+  .rectangle_solution_text_content.three span {
+    letter-spacing: -0.5px;
   }
 }

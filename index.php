@@ -84,6 +84,7 @@
           <div class="beteran_text_content">
             <p>ベテランの退職や異動で途切れがちなノウハウ。</p>
             <p class="p2">いま資産化に取り組むことで、継続的な成長と競争力強化につなげられます。</p>
+            <span class="hidden">ベテランの退職や異動で途切れがちなノウハウ。いま資産化に取り組むことで、継続的な成長と競争力強化につなげられます。</span>
           </div>
         </div>
       </div>
@@ -127,7 +128,7 @@
         <div class="usinaware_text_content solution">
           <p>その課題、AIナレッジ基盤「SkillRelay」で解決します。</p>
           <span class="sono_text hidden">その課題、AIナレッジ基盤</span>
-          <span class="skill_text hidden">「SkillRelay」で解決します。</span>
+          <span class="skill_text hidden">「SkillRelay」<span class="kaiketu_text">で解決します。</span></span>
         </div>
 
         <div class="beteran_text_content solution">
@@ -145,31 +146,31 @@
 
     <div class="rectangle_solution_contents_flex">
       <div class="rectangle_solution">
-        <div class="rectangle_solution_flex">
+        <div class="rectangle_solution_flex one">
           <div class="check_img_content">
             <img src="./img/pc/パス 35 1.png" />
           </div>
           <div class="rectangle_solution_text_content">
-            <p>ノウハウの可視化</p>
-            <span>暗黙知をAIが整理し、誰でも理解できる形式に変換します。</span>
+            <p class="one">ノウハウの可視化</p>
+            <span class="one">暗黙知をAIが整理し、誰でも理解できる形式に変換します。</span>
           </div>
         </div>
 
-        <div class="rectangle_solution_flex">
-          <div class="check_img_content">
+        <div class="rectangle_solution_flex two">
+          <div class="check_img_content two">
             <img src="./img/pc/パス 35 1.png" />
           </div>
-          <div class="rectangle_solution_text_content">
+          <div class="rectangle_solution_text_content two">
             <p>リスクの低減</p>
-            <span>知識の属人化や引き継ぎミスを防ぎ、組織としての安定性を高めます。</span>
+            <span class="tisiki_text">知識の属人化や引き継ぎミスを防ぎ、組織としての安定性を高めます。</span>
           </div>
         </div>
 
-        <div class="rectangle_solution_flex">
+        <div class="rectangle_solution_flex three">
           <div class="check_img_content">
             <img src="./img/pc/パス 35 1.png" />
           </div>
-          <div class="rectangle_solution_text_content">
+          <div class="rectangle_solution_text_content three">
             <p>スピーディな展開</p>
             <span>熟練者の知見を即座に活用できる状態にし、現場での判断力を支援します。</span>
           </div>
