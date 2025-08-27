@@ -215,6 +215,8 @@
 
         <div class="usinaware_text_content how">
           <p>SkillRelayは、単なるFAQチャットボットではありません。</p>
+          <p class="title_sp hidden">SkillRelayは、単なる</p>
+          <p class="title_sp hidden">FAQチャットボットではありません。</p>
           <span>熟練者の思考プロセスそのものをAIが学習し、再現可能に。</span>
           <span>知識の属人化を防ぎ、組織の知を資産化します。</span>
         </div>
@@ -226,6 +228,7 @@
         <div class="white_rectangle_content">
           <img src="./img/pc/Group 5 (1).png" />
           <p>あらゆる”知”を収集</p>
+          <img class="white_rectangle_img_sp hidden" src="./img/sp/Group 2 1.png" />
           <span class="white_rectangle_text">
             ドキュメント、会議ログ、業務メモ、インタビューなど、形式を問わず幅広い情報を集約。 AIが学習可能な「組織の知識データベース」を構築します。
           </span>
@@ -241,6 +244,7 @@
         <div class="white_rectangle_content">
           <img src="./img/pc/Group 6 (1).png" />
           <p>“思考の型”を構造化</p>
+          <img class="white_rectangle_img_sp hidden" src="./img/sp/Group 4 1.png" />
           <span class="white_rectangle_text">
             「なぜその判断をしたのか」という思考プロセスを分解・整理。 AIが分析し、再現可能なフローとして体系化します。
           </span>
@@ -253,9 +257,10 @@
 
     <div class="how_rectangle_flex_center">
       <div class="how_rectangle_content_flex">
-        <div class="white_rectangle_content">
+        <div class="white_rectangle_content three">
           <img src="./img/pc/Group 7 (1).png" />
           <p>AIエージェントで再現</p>
+          <img class="white_rectangle_img_sp hidden" src="./img/sp/グループ 20 1 (1).png" />
           <span class="white_rectangle_text three">
             学習した知識や思考パターンを、人に質問するような対話形式で再現。 新人教育から日々の業務支援まで、状況に応じて最適なアドバイスを即座に提供します。
           </span>
@@ -266,7 +271,7 @@
       </div>
     </div>
 
-    
+
   </section>
 
 
