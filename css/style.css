@@ -209,7 +209,8 @@ li {
   font-weight: 600;
 }
 
-.usinaware_text_content p {
+.usinaware_text_content p,
+.jurai_text_content p {
   font-size: 40px;
   font-weight: 900;
 }
@@ -223,7 +224,8 @@ li {
 }
 
 .beteran_text_content p,
-.content_text.how {
+.content_text.how,
+.jurai_text_content span {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 2px;
@@ -513,6 +515,167 @@ li {
 .white_rectangle_text.three {
   width: 645px;
 }
+
+/* ********* COMPARISON section ************** */
+.comparison_section {
+  background-color: #efefef;
+}
+
+.blue_rectangle_content.comparison {
+  margin-top: 120px;
+  margin-bottom: 26px;
+}
+
+.jurai_text_content p:first-child {
+  margin-bottom: 22px;
+}
+
+.sub_text.top {
+  margin-bottom: 5px;
+}
+
+.sub_text.bottom {
+  margin-bottom: 60px;
+}
+
+.jurai_text_content p.sub_text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.jurai_text_content p.sub_text.hidden {
+  display: none;
+}
+
+.four_box_flex {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+   padding-bottom: 120px;
+}
+
+.box_content.first {
+  margin-left: -12px;
+}
+
+.box_content.two {
+  margin-left: 11px;
+}
+
+
+.box_title_content,
+.box_text_content {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_title_content {
+  background-color: #171e2b;
+  border-radius: 10px 10px 0 0;
+}
+
+.box_text_content:nth-child(3) {
+  border-top: solid 1px #acb0c7;
+  border-bottom: solid 1px #acb0c7;
+}
+
+.box_text_content:nth-child(4) {
+  border-radius: 0 0 10px 10px;
+}
+
+.box_text_content {
+  background-color: #5d6c87;
+}
+
+.box_title_content p {
+  font-size: 22px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.box_text_content p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.box_title_content.two {
+  background-color: #bababa;
+}
+
+.content_flex {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 300px;
+  height: 70px;
+}
+
+.kigou_img_content img {
+  margin-left: 11px;
+  margin-right: 12px;
+}
+
+.box_text_block p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #818181;
+}
+
+.content_flex.two {
+  border-top: solid 1px #bababa;
+  border-bottom: solid 1px #bababa;
+}
+
+.content_flex.three {
+  border-radius: 0 0 10px 10px;
+}
+
+.box_text_block p:nth-of-type(2) {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.box_title_content.four {
+  background-image: url("../img/pc/Rectangle\ 35\ \(1\).png");
+}
+
+.box_text_block.four p {
+  color: #0192e2;
+}
+
+.box_text_block.four p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content_flex.four {
+  width: 298px;
+}
+
+.content_flex.four.first {
+  border-left: solid 1px #0192e2;
+  border-right: solid 1px #0192e2;
+}
+
+.content_flex.four.second {
+  border-top: solid 1px #0192e2;
+  border-bottom: solid 1px #0192e2;
+  border-left: solid 1px #0192e2;
+  border-right: solid 1px #0192e2;
+}
+
+.content_flex.four.third {
+    border-left: solid 1px #0192e2;
+  border-right: solid 1px #0192e2;
+  border-bottom: solid 1px #0192e2;
+  border-radius: 0 0 10px 10px;
+}
+
 
 @media screen and (max-width: 1360px) {
   .catchphrase_img {
