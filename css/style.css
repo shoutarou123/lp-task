@@ -98,8 +98,6 @@ li {
 .intai_text {
   font-size: 20px;
   font-weight: 500;
-  /* letter-spacing: 0.49px; */
-  /* margin-left: 20px; */
 }
 
 .button_content_flex {
@@ -205,8 +203,11 @@ li {
   font-weight: 600;
 }
 
-.blue_rectangle_text {
+.blue_rectangle_text,
+.blue_rectangle_text.black {
   letter-spacing: 1.6px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .usinaware_text_content p {
@@ -222,7 +223,8 @@ li {
   margin-bottom: 64px;
 }
 
-.beteran_text_content p {
+.beteran_text_content p,
+.content_text.how {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 2px;
@@ -416,6 +418,105 @@ li {
   background-color: aqua;
 }
 /*  */
+
+/* ************* HOW section ************** */
+.how_section {
+  background-color: #f9f9f9;
+  padding-top: 120px;
+  padding-bottom: 96px;
+}
+
+.title_content_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.title_content_box {
+  width: 1300px;
+}
+
+.blue_rectangle.how {
+  margin-top: 2px;
+}
+
+.blue_rectangle_text.black {
+  letter-spacing: 0px;
+}
+
+.usinaware_text_content.how {
+  margin-bottom: 61px;
+}
+
+.usinaware_text_content.how p {
+  margin-bottom: 23px;
+}
+
+.usinaware_text_content.how span {
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.usinaware_text_content.how span:first-of-type {
+  margin-bottom: 5px;
+}
+
+.how_rectangle_flex_center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.how_rectangle_content_flex {
+  width: 1300px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white_rectangle_content img {
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.white_rectangle_content p {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.white_rectangle_content span {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.white_rectangle_text {
+  width: 640px;
+}
+
+.white_rectangle_img img {
+  margin-left: 60px;
+  margin-top: 9px;
+}
+
+.white_rectangle_text.three {
+  width: 645px;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1360px) {
   .catchphrase_img {
@@ -1436,8 +1537,8 @@ li {
 
   .rectangle_solution_flex.two {
     width: 314px;
-     margin-left: 0px;
-     margin-bottom: 11px;
+    margin-left: 0px;
+    margin-bottom: 11px;
   }
 
   .check_img_content.two {
@@ -1449,7 +1550,7 @@ li {
     margin-bottom: 5px;
   }
 
-      .rectangle_solution_text_content .tisiki_text {
+  .rectangle_solution_text_content .tisiki_text {
     letter-spacing: -0.4px;
   }
 
