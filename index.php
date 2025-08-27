@@ -255,7 +255,7 @@
     </div>
 
     <div class="how_rectangle_flex_center">
-      <div class="how_rectangle_content_flex">
+      <div class="how_rectangle_content_flex three">
         <div class="white_rectangle_content three">
           <img src="./img/pc/Group 7 (1).png" />
           <p>AIエージェントで再現</p>
@@ -292,118 +292,119 @@
       </div>
     </div>
 
+    <div class="scroll_wrapper">
+      <div class="four_box_flex">
+        <div class="box_content first">
+          <div class="box_title_content sp">
+            <p>比較項目</p>
+          </div>
+          <div class="box_text_content sp one">
+            <p>知識継承の深さ</p>
+          </div>
+          <div class="box_text_content sp two">
+            <p>思考プロセスの再現性</p>
+          </div>
+          <div class="box_text_content sp three">
+            <p>投資対効果・持続性</p>
+          </div>
+        </div>
 
-    <div class="four_box_flex">
-      <div class="box_content first">
-        <div class="box_title_content">
-          <p>比較項目</p>
+        <div class="box_content two">
+          <div class="box_title_content two">
+            <p>従来型マニュアル</p>
+          </div>
+          <div class="content_flex">
+            <div class="kigou_img_content">
+              <img src="./img/pc/グループ 96 1.png" />
+            </div>
+            <div class="box_text_block">
+              <p>限定的</p>
+              <p>(文書で伝わる範囲に留まる)</p>
+            </div>
+          </div>
+          <div class="content_flex two">
+            <div class="kigou_img_content">
+              <img src="./img/pc/グループ 96 1.png" />
+            </div>
+            <div class="box_text_block">
+              <p>なし</p>
+              <p>(判断理由や暗黙知は失われる)</p>
+            </div>
+          </div>
+          <div class="content_flex three">
+            <div class="kigou_img_content">
+              <img src="./img/pc/グループ 94 1.png" />
+            </div>
+            <div class="box_text_block">
+              <p>作成・更新に高コスト、</p>
+              <p>活用度は低い</p>
+            </div>
+          </div>
         </div>
-        <div class="box_text_content one">
-          <p>知識継承の深さ</p>
-        </div>
-        <div class="box_text_content two">
-          <p>思考プロセスの再現性</p>
-        </div>
-        <div class="box_text_content three">
-          <p>投資対効果・持続性</p>
-        </div>
-      </div>
 
-      <div class="box_content two">
-        <div class="box_title_content two">
-          <p>従来型マニュアル</p>
+        <div class="box_content two">
+          <div class="box_title_content two">
+            <p>一般的なAIチャット</p>
+          </div>
+          <div class="content_flex">
+            <div class="kigou_img_content">
+              <img src="./img/pc/グループ 96 1.png" />
+            </div>
+            <div class="box_text_block">
+              <p>浅い</p>
+              <p>(FAQベースの定型回答のみ)</p>
+            </div>
+          </div>
+          <div class="content_flex two">
+            <div class="kigou_img_content">
+              <img src="./img/pc/グループ 94 1.png" />
+            </div>
+            <div class="box_text_block">
+              <p>部分的</p>
+              <p>(単純なQ&Aは対応可、深い思考は不可)</p>
+            </div>
+          </div>
+          <div class="content_flex three">
+            <div class="kigou_img_content">
+              <img src="./img/pc/グループ 94 1.png" />
+            </div>
+            <div class="box_text_block">
+              <p>導入は低コストだが</p>
+              <p>成果は限定的</p>
+            </div>
+          </div>
         </div>
-        <div class="content_flex">
-          <div class="kigou_img_content">
-            <img src="./img/pc/グループ 96 1.png" />
-          </div>
-          <div class="box_text_block">
-            <p>限定的</p>
-            <p>(文書で伝わる範囲に留まる)</p>
-          </div>
-        </div>
-        <div class="content_flex two">
-          <div class="kigou_img_content">
-            <img src="./img/pc/グループ 96 1.png" />
-          </div>
-          <div class="box_text_block">
-            <p>なし</p>
-            <p>(判断理由や暗黙知は失われる)</p>
-          </div>
-        </div>
-        <div class="content_flex three">
-          <div class="kigou_img_content">
-            <img src="./img/pc/グループ 94 1.png" />
-          </div>
-          <div class="box_text_block">
-            <p>作成・更新に高コスト、</p>
-            <p>活用度は低い</p>
-          </div>
-        </div>
-      </div>
 
-      <div class="box_content two">
-        <div class="box_title_content two">
-          <p>一般的なAIチャット</p>
-        </div>
-        <div class="content_flex">
-          <div class="kigou_img_content">
-            <img src="./img/pc/グループ 96 1.png" />
+        <div class="box_content four">
+          <div class="box_title_content four">
+            <p>SkillRelay</p>
           </div>
-          <div class="box_text_block">
-            <p>浅い</p>
-            <p>(FAQベースの定型回答のみ)</p>
+          <div class="content_flex four first">
+            <div class="kigou_img_content">
+              <img src="./img/pc/グループ 102 1.png" />
+            </div>
+            <div class="box_text_block four">
+              <p>実務知・ノウハウを含め、</p>
+              <p>深い知識まで継承可能</p>
+            </div>
           </div>
-        </div>
-        <div class="content_flex two">
-          <div class="kigou_img_content">
-            <img src="./img/pc/グループ 94 1.png" />
+          <div class="content_flex four second">
+            <div class="kigou_img_content">
+              <img src="./img/pc/グループ 102 1.png" />
+            </div>
+            <div class="box_text_block four">
+              <p>熟練者の思考パターンを</p>
+              <p>AIが再現し、対話で伝承</p>
+            </div>
           </div>
-          <div class="box_text_block">
-            <p>部分的</p>
-            <p>(単純なQ&Aは対応可、深い思考は不可)</p>
-          </div>
-        </div>
-        <div class="content_flex three">
-          <div class="kigou_img_content">
-            <img src="./img/pc/グループ 94 1.png" />
-          </div>
-          <div class="box_text_block">
-            <p>導入は低コストだが</p>
-            <p>成果は限定的</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="box_content four">
-        <div class="box_title_content four">
-          <p>SkillRelay</p>
-        </div>
-        <div class="content_flex four first">
-          <div class="kigou_img_content">
-            <img src="./img/pc/グループ 102 1.png" />
-          </div>
-          <div class="box_text_block four">
-            <p>実務知・ノウハウを含め、</p>
-            <p>深い知識まで継承可能</p>
-          </div>
-        </div>
-        <div class="content_flex four second">
-          <div class="kigou_img_content">
-            <img src="./img/pc/グループ 102 1.png" />
-          </div>
-          <div class="box_text_block four">
-            <p>熟練者の思考パターンを</p>
-            <p>AIが再現し、対話で伝承</p>
-          </div>
-        </div>
-        <div class="content_flex four third">
-          <div class="kigou_img_content">
-            <img src="./img/pc/グループ 101 1.png" />
-          </div>
-          <div class="box_text_block four">
-            <p>長期的に効率化と</p>
-            <p>競争力強化を実現</p>
+          <div class="content_flex four third">
+            <div class="kigou_img_content">
+              <img src="./img/pc/グループ 101 1.png" />
+            </div>
+            <div class="box_text_block four">
+              <p>長期的に効率化と</p>
+              <p>競争力強化を実現</p>
+            </div>
           </div>
         </div>
       </div>
@@ -411,6 +412,7 @@
 
   </section>
 
+  <!-- <p class="damy">ああああああああああああああああああああああああああああああああ</p> -->
 
 
 
