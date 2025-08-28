@@ -904,7 +904,6 @@ li {
 }
 
 .faq_flex {
-  /* background-color: #0192e2; */
   display: flex;
   width: 1350px;
 }
@@ -927,7 +926,6 @@ li {
 .qa_content {
   margin-left: 220px;
   padding-top: 69px;
-  /* background-color: #0192e2; */
 }
 
 .q_flex {
@@ -1125,6 +1123,39 @@ li {
     width: 607px;
     margin-left: 40px;
     line-height: 38px;
+  }
+
+  /*  ******** faq section *************** */
+  .faq_flex {
+    width: 1060px;
+  }
+
+  .blue_rectangle_content.faq {
+    margin-left: 57px;
+  }
+
+  .title_content_faq {
+    margin-left: 41px;
+  }
+
+  .qa_content {
+    margin-left: 80px;
+  }
+
+  .minus_plus_img_content {
+    margin-left: 120px;
+  }
+
+  .minus_plus_img_content.two {
+    margin-left: 179px;
+  }
+
+  .minus_plus_img_content.three {
+    margin-left: 259px;
+  }
+
+  .minus_plus_img_content.four {
+    margin-left: 137px;
   }
 }
 
@@ -1349,6 +1380,24 @@ li {
 
   .pricing_white_box_img_content img {
     margin-left: 12px;
+  }
+
+  /* *********** faq section **************** */
+
+  .faq_flex {
+    width: 760px;
+  }
+
+  .blue_rectangle_content.faq {
+    margin-left: 17px;
+  }
+
+  .title_content_faq {
+    margin-left: -4px;
+  }
+
+  .qa_content {
+    margin-left: 36px;
   }
 }
 
@@ -1816,6 +1865,26 @@ li {
     width: 100%;
     line-height: 35px;
   }
+
+  /* *********** faq section **************** */
+
+  .faq_flex {
+    flex-flow: column;
+    width: 536px;
+  }
+
+  .blue_rectangle_content.faq {
+    margin-left: 30px;
+  }
+
+  .title_content_faq {
+    margin-left: 9px;
+  }
+  .qa_content {
+    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -1889,7 +1958,7 @@ li {
 
   /* ********* pricing section ********** */
   .plan_text_sp.bottom {
-    width: 438px;
+    width: 310px;
   }
 
   .pricing_white_box {
@@ -1901,6 +1970,20 @@ li {
   .pricing_white_box_text_content p:nth-of-type(2) {
     font-size: 20px;
     line-height: 32px;
+  }
+
+  /* *********** faq section **************** */
+
+  .faq_flex {
+    width: 490px;
+  }
+
+  .blue_rectangle_content.faq {
+    margin-left: 10px;
+  }
+
+  .title_content_faq {
+    margin-left: -12px;
   }
 }
 
@@ -2122,6 +2205,24 @@ li {
   .pricing_white_box_img_content img {
     width: 168px;
     height: auto;
+  }
+
+  /* *********** faq section **************** */
+
+  .faq_flex {
+    width: 470px;
+  }
+
+  .title_content_faq p {
+    font-size: 30px;
+  }
+
+  .blue_rectangle_content.faq {
+    margin-left: 52px;
+  }
+
+  .title_content_faq {
+    margin-left: 28px;
   }
 }
 
@@ -2531,6 +2632,65 @@ li {
     width: 320px;
     height: 590px;
   }
+
+  /* *********** faq section **************** */
+  .faq_section {
+    padding-top: 52px;
+    height: 600px;
+  }
+
+  .faq_flex {
+    width: 360px;
+  }
+
+  .blue_rectangle_content.faq {
+    margin-left: 31px;
+  }
+
+  .title_content_faq {
+    margin-left: 7px;
+  }
+
+  .title_content_faq p {
+    font-size: 24px;
+  }
+
+  .q_img {
+    width: 24px;
+  }
+
+  .q_flex p {
+    font-size: 16px;
+  }
+
+  .qa_content {
+    padding-top: 40px;
+  }
+
+  .minus_plus_img_content {
+    margin-left: 40px;
+  }
+
+  .minus_img,
+  .plus_img {
+    width: 24px;
+  }
+
+  .answer_content p {
+    font-size: 14px;
+  }
+
+  .minus_plus_img_content.two {
+    margin-left: 60px;
+  }
+
+  .minus_plus_img_content.three {
+    margin-left: 98px;
+  }
+
+  .minus_plus_img_content.four {
+    margin-left: 47px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -2873,5 +3033,59 @@ li {
 
   .pricing_white_box_text_content p:nth-of-type(2) {
     margin-left: 10px;
+  }
+
+  /* *********** faq section ************* */
+  .faq_section {
+    padding-top: 62px;
+    height: 670px;
+  }
+
+  .faq_flex {
+    width: 345px;
+  }
+
+  .blue_rectangle_content.faq {
+    margin-left: 1px;
+  }
+
+  .title_content_faq {
+    margin-left: 2px;
+  }
+
+  .qa_content {
+    padding-top: 32px;
+  }
+
+  .q_flex p {
+    margin-left: 9px;
+  }
+
+  .minus_plus_img_content {
+    margin-left: 30px;
+  }
+
+  .q_flex {
+    margin-bottom: 13px;
+  }
+
+  .answer_content p {
+    margin-bottom: 22px;
+  }
+
+  .minus_plus_img_content.two {
+    margin-left: 47px;
+  }
+
+  .minus_plus_img_content.three {
+    margin-left: 80px;
+  }
+
+  .minus_plus_img_content.four {
+    margin-left: 30px;
+  }
+
+  .border_bottom_faq {
+    margin-bottom: 21px;
   }
 }
