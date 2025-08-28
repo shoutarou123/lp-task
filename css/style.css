@@ -674,6 +674,127 @@ li {
   border-radius: 0 0 10px 10px;
 }
 
+/* *************** process section *********** */
+.process_section {
+  background-color: #f9f9f9;
+  padding-bottom: 120px;
+}
+
+
+.small_text.hidden,
+.sub_text.process.top.hidden,
+.sub_text.process.bottom.hidden {
+  display: none;
+}
+
+.blue_rectangle_content.process {
+  margin-top: 122px;
+}
+
+.sub_text.process.bottom {
+  margin-bottom: 155px;
+}
+
+/* ホワイトボックスセクション始まり */
+.white_box_content_flex {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.white_box_content {
+  background-color: #fff;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 410px;
+  height: 467px;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+/* 画像 */
+.white_box_top_img_flex_center {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: -95px;
+  transform: translateX(-50%);
+}
+
+.step_content_flex_center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.step_content {
+  margin-top: 119px;
+}
+
+.step_img {
+  margin-bottom: 15px;
+}
+
+/* 要件定義・データ洗い出し */
+.step_content p {
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.gray_box_flex_center {
+  display: flex;
+  justify-content: center;
+}
+
+.gray_box_content {
+  background-color: #f9f9f9;
+  width: 370px;
+  border-radius: 10px;
+  padding-bottom: 16px;
+}
+
+.gray_box_title_flex_center {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  
+}
+
+/* 期間目安：1～2か月 */
+.gray_box_content p:first-child {
+  font-size: 18px;
+  font-weight: 700;
+  color: #848484;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.gray_line {
+  border-bottom: solid 1px #BABABA;
+  width: 338px;
+  margin-bottom: 23px;
+}
+
+.check_content_box_flex_center {
+  display: flex;
+  justify-content: center;
+}
+
+.check_content_flex {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+/* 課題・利用目的を明確化 */
+.check_content_flex p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
 @media screen and (max-width: 1360px) {
   .catchphrase_img {
     width: 1000px;

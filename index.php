@@ -409,12 +409,148 @@
         </div>
       </div>
     </div>
-
   </section>
 
-  <!-- <p class="damy">ああああああああああああああああああああああああああああああああ</p> -->
+  <section class="process_section">
+    <div class="title_content_flex">
+      <div class="title_content_box">
+        <div class="blue_rectangle_content process">
+          <div class="blue_rectangle process"></div>
+          <p class="blue_rectangle_text black">PROCESS</p>
+        </div>
+
+        <div class="jurai_text_content">
+          <p>導入はスモールスタート。効果を見ながら安心して拡張可能。</p>
+          <p class="small_text hidden">導入はスモールスタート。</p>
+          <p class="small_text hidden">効果を見ながら安心して</p>
+          <p class="small_text hidden">拡張可能。</p>
+          <p class="sub_text process top">
+            小さく始めて早く成果を出し、その後段階的に広げられるので、
+          </p>
+          <p class="sub_text process bottom">
+            リスクを抑えつつ最大の効果を実現します。
+          </p>
+          <p class="sub_text process top hidden">
+            導入はスモールスタート。効果を見ながら安心
+          </p>
+          <p class="sub_text process bottom hidden">して拡張可能。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="white_box_content_flex">
+      <div class="white_box_content">
+        <div class="white_box_top_img_flex_center">
+          <img class="white_box_top_img" src="./img/pc/グループ 351.png" />
+        </div>
+        <div class="step_content_flex_center">
+          <div class="step_content">
+            <img class="step_img" src="./img/pc/Group 8.png" />
+            <p>要件定義・データ洗い出し</p>
+          </div>
+        </div>
+        <div class="gray_box_flex_center">
+          <div class="gray_box_content">
+            <div class="gray_box_title_flex_center">
+              <p>期間目安：1～2か月</p>
+              <div class="gray_line"></div>
+            </div>
+            <div class="check_content_box_flex_center">
+              <div class="check_content_box">
+                <div class="check_content_flex">
+                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <p>課題・利用目的を明確化</p>
+                </div>
+                <div class="check_content_flex">
+                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <p>保有データやナレッジを整理</p>
+                </div>
+                <div class="check_content_flex">
+                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <p>AI活用に向けた最適な設計を策定</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="white_box_content">
+        <div class="white_box_top_img_flex_center">
+          <img class="white_box_top_img" src="./img/pc/グループ 353.png" />
+        </div>
+        <div class="step_content_flex_center">
+          <div class="step_content">
+            <img class="step_img" src="./img/pc/Group 9.png" />
+            <p>PoC（試験導入）・精度向上</p>
+          </div>
+        </div>
+        <div class="gray_box_flex_center">
+          <div class="gray_box_content">
+            <div class="gray_box_title_flex_center">
+              <p>期間目安：2〜3か月</p>
+              <div class="gray_line"></div>
+            </div>
+            <div class="check_content_box_flex_center">
+              <div class="check_content_box">
+                <div class="check_content_flex">
+                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <p>実際のデータを使ったトライアル実施</p>
+                </div>
+                <div class="check_content_flex">
+                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <p>AIモデルの学習・改善</p>
+                </div>
+                <div class="check_content_flex">
+                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <p>テスト運用による精度チューニング</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="white_box_content">
+        <div class="white_box_top_img_flex_center">
+          <img class="white_box_top_img" src="./img/pc/グループ 352.png" />
+        </div>
+        <div class="step_content_flex_center">
+          <div class="step_content">
+            <img class="step_img" src="./img/pc/Group 10.png" />
+            <p>本格導入・展開</p>
+          </div>
+        </div>
+        <div class="gray_box_flex_center">
+          <div class="gray_box_content">
+            <div class="gray_box_title_flex_center">
+              <p>期間目安：4か月以降</p>
+              <div class="gray_line"></div>
+            </div>
+            <div class="check_content_box_flex_center">
+              <div class="check_content_box">
+                <div class="check_content_flex">
+                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <p>PoC成果を踏まえて全社展開へ拡張</p>
+                </div>
+                <div class="check_content_flex">
+                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <p>業務フローに組み込み定着化</p>
+                </div>
+                <div class="check_content_flex">
+                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <p>継続的な改善とサポートを提供</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
 
+  </section>
 
 
 
