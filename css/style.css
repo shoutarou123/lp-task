@@ -804,6 +804,94 @@ li {
   font-weight: 700;
 }
 
+/* ************ pricing section ************ */
+.pricing_section {
+  background-image: url("../img/pc/Mask\ group\ \(4\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 852px;
+}
+
+.blue_rectangle_content.pricing {
+  margin-top: 125px;
+}
+
+/* ご利用規模に合わせた最適なプランをご提案します */
+.plan_text_pc {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 47px;
+}
+
+.plan_text_sp.top,
+.plan_text_sp.bottom {
+  display: none;
+}
+
+.pricing_white_box {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 1300px;
+  height: 452px;
+  margin: 0 auto;
+}
+
+.pricing_white_box_flex {
+  display: flex;
+  /* justify-content: center; */
+  padding-top: 40px;
+  margin-bottom: 36px;
+}
+
+.pricing_white_box_text_content p {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/* 導入目的や～ */
+.pricing_white_box_text_content p:first-child {
+  width: 795px;
+  margin-bottom: 60px;
+  margin-top: 2px;
+  line-height: 45px;
+  margin-left: 40px;
+}
+
+/* 詳細なお見積り～ */
+.pricing_white_box_text_content p:nth-of-type(2) {
+  width: 795px;
+  margin-left: 44px;
+  margin-top: -11px;
+  line-height: 44px;
+}
+
+.pricing_white_box_img_content img {
+  margin-left: 82px;
+  margin-top: 4px;
+}
+
+.ryoukin_button_content_flex_center {
+  display: flex;
+  justify-content: center;
+}
+
+.ryoukin_button {
+  border: solid 1px #171e2b;
+  border-radius: 4px;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ryoukin_button p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 1360px) {
   .catchphrase_img {
     width: 1000px;
@@ -915,6 +1003,37 @@ li {
 
   .step_content.three p {
     margin-bottom: 52px;
+  }
+
+  /* ********* pricing section ************* */
+  .plan_text_pc {
+    width: 700px;
+  }
+
+  .pricing_white_box_flex {
+    margin-bottom: 24px;
+  }
+
+  .pricing_white_box {
+    width: 1000px;
+  }
+
+  .pricing_white_box_img_content img {
+    margin-left: 28px;
+    margin-top: 46px;
+    width: 220px;
+  }
+
+  .pricing_white_box_text_content p:first-child {
+    width: 689px;
+    margin-bottom: 29px;
+    line-height: 38px;
+  }
+
+  .pricing_white_box_text_content p:nth-of-type(2) {
+    width: 607px;
+    margin-left: 40px;
+    line-height: 38px;
   }
 }
 
@@ -1124,6 +1243,21 @@ li {
 
   .check_content_flex p {
     width: 145px;
+  }
+
+  /* *********** pricing section *********** */
+  .pricing_white_box {
+    width: 820px;
+  }
+
+  .pricing_white_box_text_content p:first-child,
+  .pricing_white_box_text_content p:nth-of-type(2) {
+    font-size: 24px;
+    width: 524px;
+  }
+
+  .pricing_white_box_img_content img {
+    margin-left: 12px;
   }
 }
 
@@ -1540,6 +1674,57 @@ li {
   .check_content_flex p {
     width: 100%;
   }
+
+  /* ************* pricing section ************* */
+  .pricing_section {
+    height: 1100px;
+  }
+
+  .title_content_box.pricing {
+    width: 520px;
+  }
+
+  .plan_text_pc {
+    display: none;
+  }
+
+  .plan_text_sp.top,
+  .plan_text_sp.bottom {
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    width: 100%;
+  }
+
+  .plan_text_sp.bottom {
+    margin-bottom: 32px;
+  }
+
+  .pricing_white_box {
+    width: 520px;
+    height: 630px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .pricing_white_box_flex {
+    flex-flow: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pricing_white_box_img_content img {
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+
+  .pricing_white_box_text_content p:first-child,
+  .pricing_white_box_text_content p:nth-of-type(2) {
+    margin-left: 0px;
+    width: 100%;
+    line-height: 35px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -1609,6 +1794,22 @@ li {
 
   .white_box {
     width: auto;
+  }
+
+  /* ********* pricing section ********** */
+  .plan_text_sp.bottom {
+    width: 438px;
+  }
+
+  .pricing_white_box {
+    width: 430px;
+    height: 600px;
+  }
+
+  .pricing_white_box_text_content p:first-child,
+  .pricing_white_box_text_content p:nth-of-type(2) {
+    font-size: 20px;
+    line-height: 32px;
   }
 }
 
@@ -1799,6 +2000,37 @@ li {
 
   .gray_line {
     width: 280px;
+  }
+
+  /* ********* pricing section ************* */
+  .pricing_section {
+    height: 960px;
+  }
+
+  .title_content_box.pricing {
+    width: 420px;
+  }
+
+  .plan_text_sp.top,
+  .plan_text_sp.bottom {
+    font-size: 30px;
+  }
+
+  .pricing_white_box {
+    width: 380px;
+  }
+
+  .ryoukin_button p {
+    font-size: 16px;
+  }
+
+  .ryoukin_button {
+    width: 311px;
+    height: 50px;
+  }
+  .pricing_white_box_img_content img {
+    width: 168px;
+    height: auto;
   }
 }
 
@@ -2181,6 +2413,33 @@ li {
   .check_content_flex.step3.top p {
     width: 250px;
   }
+
+  /* ********** princing section ******* */
+  .pricing_section {
+    height: 820px;
+  }
+
+  .title_content_box.pricing {
+    width: 350px;
+  }
+
+  .blue_rectangle_content {
+    margin-bottom: 16px;
+  }
+
+  .blue_rectangle_content.pricing {
+    margin-top: 40px;
+  }
+
+  .plan_text_sp.top,
+  .plan_text_sp.bottom {
+    font-size: 24px;
+  }
+
+  .pricing_white_box {
+    width: 320px;
+    height: 590px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -2480,11 +2739,48 @@ li {
     margin-bottom: 100px;
   }
 
-.step_content {
-        margin-top: 80px;
-    }
+  .step_content {
+    margin-top: 80px;
+  }
 
   .white_box_content {
     height: 410px;
+  }
+  /* ********** pricing section ********* */
+  .pricing_section {
+    height: 858px;
+  }
+
+  .blue_rectangle_content.pricing {
+    margin-top: 61px;
+  }
+
+  .pricing_white_box_flex {
+    margin-bottom: 22px;
+  }
+
+  .pricing_white_box {
+    padding: 0;
+    width: 342px;
+    height: 616px;
+  }
+
+  .pricing_white_box_img_content img {
+    margin-top: -15px;
+    margin-bottom: 18px;
+    margin-left: 0px;
+  }
+
+  .pricing_white_box_text_content p:first-child,
+  .pricing_white_box_text_content p:nth-of-type(2) {
+    margin-left: 9px;
+    width: 317px;
+  }
+  .pricing_white_box_text_content p:first-child {
+    margin-bottom: 42px;
+  }
+
+  .pricing_white_box_text_content p:nth-of-type(2) {
+    margin-left: 10px;
   }
 }

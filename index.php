@@ -546,12 +546,48 @@
           </div>
         </div>
       </div>
-
     </div>
-
-
   </section>
 
+  <section class="pricing_section">
+    <div class="title_content_flex">
+      <div class="title_content_box pricing">
+        <div class="blue_rectangle_content pricing">
+          <div class="blue_rectangle pricing"></div>
+          <p class="blue_rectangle_text white">PRICING</p>
+        </div>
+
+        <div class="plan_text_content">
+          <p class="plan_text_pc">ご利用規模に合わせた最適なプランをご提案します</p>
+          <p class="plan_text_sp top hidden">ご利用規模に合わせた</p>
+          <p class="plan_text_sp bottom hidden">最適なプランをご提案します</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing_white_box">
+      <div class="pricing_white_box_flex">
+        <div class="pricing_white_box_text_content">
+          <p>
+            導入目的や規模に応じて、柔軟にカスタマイズ可能なプランをご用意しています。本格導入をご検討の場合はもちろん、まずは小さく始めたいという場合にも対応可能です。
+          </p>
+          <p>
+            詳細なお見積もりや導入イメージについては、お気軽にご相談ください。
+          </p>
+        </div>
+        <div class="pricing_white_box_img_content">
+          <img src="./img/pc/アセット 2 6.png" />
+        </div>
+      </div>
+
+      <div class="ryoukin_button_content_flex_center">
+        <div class="ryoukin_button">
+          <p>料金の詳細を相談する
+        </div>
+      </div>
+    </div>
+
+  </section>
 
 
 
