@@ -572,7 +572,7 @@
             導入目的や規模に応じて、柔軟にカスタマイズ可能なプランをご用意しています。本格導入をご検討の場合はもちろん、まずは小さく始めたいという場合にも対応可能です。
           </p>
           <p>
-            詳細なお見積もりや導入イメージについては、お気軽にご相談ください。
+            詳細なお見積もりや導入イメージについては、お気 軽にご相談ください。
           </p>
         </div>
         <div class="pricing_white_box_img_content">
@@ -586,15 +586,95 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="faq_section">
+
+
+    <div class="faq_content_center">
+      <div class="faq_flex">
+        <div class="faq_title_content">
+          <div class="blue_rectangle_content faq">
+            <div class="blue_rectangle faq"></div>
+            <p class="blue_rectangle_text black">FAQ</p>
+          </div>
+          <div class="title_content_faq">
+            <p>よくあるご質問</p>
+          </div>
+        </div>
+
+        <div class="qa_content">
+          <div class="q_flex">
+            <img class="q_img" src="./img/pc/グループ 495 1.png" />
+            <p>導入にはどのくらいの期間がかかりますか？</p>
+            <div class="minus_plus_img_content">
+              <img class="minus_img" src="./img/pc/グループ 493 1.png" />
+              <img class="plus_img hidden" src="./img/pc/グループ 494 1.png" />
+            </div>
+          </div>
+          <div class="answer_content">
+            <p>スモールスタートなら最短1〜2か月で効果確認が可能。</p>
+          </div>
+          <div class="border_bottom_faq"></div>
+
+          <div class="q_flex">
+            <img class="q_img" src="./img/pc/グループ 495 1.png" />
+            <p>導入に必要な専門知識はありますか？</p>
+            <div class="minus_plus_img_content two">
+              <img class="minus_img" src="./img/pc/グループ 493 1.png" />
+              <img class="plus_img hidden" src="./img/pc/グループ 494 1.png" />
+            </div>
+          </div>
+          <div class="answer_content">
+            <p>AIやITの専門知識がなくても、既存の業務データから始められます。</p>
+          </div>
+          <div class="border_bottom_faq"></div>
+
+          <div class="q_flex">
+            <img class="q_img" src="./img/pc/グループ 495 1.png" />
+            <p>コストは高くつきませんか？</p>
+            <div class="minus_plus_img_content three">
+              <img class="minus_img" src="./img/pc/グループ 493 1.png" />
+              <img class="plus_img hidden" src="./img/pc/グループ 494 1.png" />
+            </div>
+          </div>
+          <div class="answer_content">
+            <p>ステップごとの投資で段階的に進められるため、リスクを抑えて導入できます。</p>
+          </div>
+          <div class="border_bottom_faq"></div>
+
+          <div class="q_flex">
+            <img class="q_img" src="./img/pc/グループ 495 1.png" />
+            <p>実際の効果はどのように測定できますか？</p>
+            <div class="minus_plus_img_content four">
+              <img class="minus_img" src="./img/pc/グループ 493 1.png" />
+              <img class="plus_img hidden" src="./img/pc/グループ 494 1.png" />
+            </div>
+          </div>
+          <div class="answer_content">
+            <p>PoCで定量的な改善指標を設定し、投資対効果を可視化します。</p>
+          </div>
+          <div class="border_bottom_faq"></div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
 
   </section>
 
 
 
 
-
-
-
+  <script src="./js/index.js"></script>
 </body>
 
 </html>

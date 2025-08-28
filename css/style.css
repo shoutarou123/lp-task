@@ -892,6 +892,97 @@ li {
   font-weight: 700;
 }
 
+/* *************** faq section ******************* */
+.faq_section {
+  height: 706px;
+  padding-top: 123px;
+}
+
+.faq_content_center {
+  display: flex;
+  justify-content: center;
+}
+
+.faq_flex {
+  /* background-color: #0192e2; */
+  display: flex;
+  width: 1350px;
+}
+
+.blue_rectangle_content {
+  margin-left: 25px;
+  margin-top: 0px;
+}
+
+.title_content_faq {
+  margin-left: 23px;
+}
+
+/* よくあるご質問 */
+.title_content_faq p {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.qa_content {
+  margin-left: 220px;
+  padding-top: 69px;
+  /* background-color: #0192e2; */
+}
+
+.q_flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+/* 導入にはどのくらいの期間がかかりますか？ */
+.q_flex p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 16px;
+}
+
+.minus_plus_img_content {
+  margin-left: 316px;
+}
+
+.minus_img,
+.plus_img {
+  display: block;
+}
+
+.plus_img {
+  display: none;
+}
+
+.answer_content p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.answer_content {
+  display: none;
+}
+
+.border_bottom_faq {
+  border-bottom: solid 1px #bababa;
+  margin-bottom: 38px;
+}
+
+.minus_plus_img_content.two {
+  margin-left: 377px;
+}
+
+.minus_plus_img_content.three {
+  margin-left: 456px;
+}
+
+.minus_plus_img_content.four {
+  margin-left: 335px;
+}
+
 @media screen and (max-width: 1360px) {
   .catchphrase_img {
     width: 1000px;
