@@ -419,8 +419,8 @@
           <p class="blue_rectangle_text black">PROCESS</p>
         </div>
 
-        <div class="jurai_text_content">
-          <p>導入はスモールスタート。効果を見ながら安心して拡張可能。</p>
+        <div class="small_start_text_content">
+          <p class="small_text_pc">導入はスモールスタート。効果を見ながら安心して拡張可能。</p>
           <p class="small_text hidden">導入はスモールスタート。</p>
           <p class="small_text hidden">効果を見ながら安心して</p>
           <p class="small_text hidden">拡張可能。</p>
@@ -431,9 +431,9 @@
             リスクを抑えつつ最大の効果を実現します。
           </p>
           <p class="sub_text process top hidden">
-            導入はスモールスタート。効果を見ながら安心
+            小さく始めて早く成果を出し、その後段階的に広げられるので、
           </p>
-          <p class="sub_text process bottom hidden">して拡張可能。</p>
+          <p class="sub_text process bottom hidden">リスクを抑えつつ最大の効果を実現します。</p>
         </div>
       </div>
     </div>
@@ -493,7 +493,7 @@
             </div>
             <div class="check_content_box_flex_center">
               <div class="check_content_box">
-                <div class="check_content_flex">
+                <div class="check_content_flex step2 top">
                   <img class="check_img" src="./img/pc/グループ 105 1.png" />
                   <p>実際のデータを使ったトライアル実施</p>
                 </div>
@@ -516,7 +516,7 @@
           <img class="white_box_top_img" src="./img/pc/グループ 352.png" />
         </div>
         <div class="step_content_flex_center">
-          <div class="step_content">
+          <div class="step_content three">
             <img class="step_img" src="./img/pc/Group 10.png" />
             <p>本格導入・展開</p>
           </div>
@@ -529,7 +529,7 @@
             </div>
             <div class="check_content_box_flex_center">
               <div class="check_content_box">
-                <div class="check_content_flex">
+                <div class="check_content_flex step3 top">
                   <img class="check_img" src="./img/pc/グループ 105 1.png" />
                   <p>PoC成果を踏まえて全社展開へ拡張</p>
                 </div>
