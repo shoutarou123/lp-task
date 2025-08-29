@@ -30,13 +30,13 @@ function checkAllOpenedAndSetHeight() {
       (img) => img.style.display !== "none" && window.getComputedStyle(img).display !== "none"
     ).length;
     if (count === 1) {
-      faqSection.style.height = "480px";
+      faqSection.style.height = "500px";
     } else if (count === 2) {
-      faqSection.style.height = "530px";
+      faqSection.style.height = "560px";
     } else if (count === 3) {
-      faqSection.style.height = "590px";
+      faqSection.style.height = "640px";
     } else if (count === 4) {
-      faqSection.style.height = "650px";
+      faqSection.style.height = "710px";
     } else {
       faqSection.style.height = "";
     }

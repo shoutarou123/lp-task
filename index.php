@@ -480,7 +480,7 @@
           <div class="gray_box_content">
             <div class="gray_box_title_flex_center">
               <p>期間目安：2〜3か月</p>
-              <div class="gray_line"></div>
+              <div class="gray_line step2"></div>
             </div>
             <div class="check_content_box_flex_center">
               <div class="check_content_box">
@@ -502,7 +502,7 @@
         </div>
       </div>
 
-      <div class="white_box_content">
+      <div class="white_box_content step3">
         <div class="white_box_top_img_flex_center">
           <img class="white_box_top_img" src="./img/pc/group-352.png" />
         </div>
@@ -514,9 +514,9 @@
         </div>
         <div class="gray_box_flex_center">
           <div class="gray_box_content">
-            <div class="gray_box_title_flex_center">
+            <div class="gray_box_title_flex_center step3">
               <p>期間目安：4か月以降</p>
-              <div class="gray_line"></div>
+              <div class="gray_line step3"></div>
             </div>
             <div class="check_content_box_flex_center">
               <div class="check_content_box">
