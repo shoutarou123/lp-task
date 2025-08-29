@@ -1460,6 +1460,10 @@ li {
   }
 
   /* *********** faq section **************** */
+.faq_section {
+    height: 820px;
+}
+
 
   .faq_flex {
     width: 760px;
@@ -1954,6 +1958,10 @@ li {
   }
 
   /* *********** faq section **************** */
+.faq_section {
+        height: 874px;
+    }
+
 
   .faq_flex {
     flex-flow: column;
@@ -3215,7 +3223,7 @@ li {
   /* *********** faq section ************* */
   .faq_section {
     padding-top: 62px;
-    height: 660px;
+    height: 460px;
   }
 
   .faq_flex {
