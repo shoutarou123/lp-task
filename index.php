@@ -21,7 +21,9 @@
       <div class="logo_content_flex">
         <img class="logo_img" src="./img/pc/group-18-1.png" />
         <img class="logo_img_sp hidden" src="./img/sp/Clip path group.png" />
-        <img class="button_img" src="./img/pc/Group 5.png" />
+        <a href="https://taiziii.com/contact/">
+          <img class="button_img" src="./img/pc/Group 5.png" />
+        </a>
       </div>
 
       <div class="sub_title_content">
@@ -45,9 +47,9 @@
           </a>
         </div>
         <div class="donu_button_content">
-          <div class="donu_button_rectangle">
-            <a class="donu_text" href="#">導入に向けた個別相談をする</a>
-          </div>
+          <a class="donu_button_rectangle" href="https://taiziii.com/contact/">
+            <div class="donu_text">導入に向けた個別相談をする</div>
+          </a>
         </div>
       </div>
 
@@ -63,10 +65,10 @@
             <p>ホワイトペーパーを無料DL</p>
           </div>
 
-          <div class="box_button">
+          <a class="box_button" href="https://taiziii.com/contact/">
             <p>導入に向けた</p>
             <p>個別相談をする</p>
-          </div>
+          </a>
         </div>
       </div>
 
@@ -582,9 +584,11 @@
       </div>
 
       <div class="ryoukin_button_content_flex_center">
-        <div class="ryoukin_button">
-          <p>料金の詳細を相談する
-        </div>
+        <a href="https://taiziii.com/contact/">
+          <div class="ryoukin_button">
+            <p>料金の詳細を相談する
+          </div>
+        </a>
       </div>
     </div>
   </section>
@@ -685,9 +689,11 @@
         </a>
       </div>
       <div class="donu_button_content">
-        <div class="donu_button_rectangle">
-          <a class="donu_text" href="#">導入に向けた個別相談をする</a>
-        </div>
+        <a class="donu_button_rectangle" href="https://taiziii.com/contact/">
+          <div class="donu_text">
+            導入に向けた個別相談をする
+          </div>
+        </a>
       </div>
     </div>
   </section>
@@ -698,4 +704,5 @@
 
   <script src="./js/index.js"></script>
 </body>
+
 </html>
