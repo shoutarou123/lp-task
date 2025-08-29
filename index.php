@@ -58,18 +58,6 @@
           <img src="./img/pc/group-492-1.png" />
           <img class="chat_img hidden" src="./img/sp/group-20-2.png" />
         </div>
-
-        <div class="button_content_flex_sp hidden">
-
-          <div class="bg_blue_button">
-            <p>ホワイトペーパーを無料DL</p>
-          </div>
-
-          <a class="box_button" href="https://taiziii.com/contact/">
-            <p>導入に向けた</p>
-            <p>個別相談をする</p>
-          </a>
-        </div>
       </div>
 
       <div class="flex">
@@ -321,8 +309,8 @@
               <img src="./img/pc/group-96-1.png" />
             </div>
             <div class="box_text_block">
-              <p>限定的</p>
-              <p>(文書で伝わる範囲に留まる)</p>
+              <p class="box_text_top">限定的</p>
+              <p class="box_text_kakko">(文書で伝わる範囲に留まる)</p>
             </div>
           </div>
           <div class="content_flex two">
@@ -330,8 +318,8 @@
               <img src="./img/pc/group-96-1.png" />
             </div>
             <div class="box_text_block">
-              <p>なし</p>
-              <p>(判断理由や暗黙知は失われる)</p>
+              <p class="box_text_top">なし</p>
+              <p class="box_text_kakko">(判断理由や暗黙知は失われる)</p>
             </div>
           </div>
           <div class="content_flex three">
@@ -339,13 +327,13 @@
               <img src="./img/pc/group-94-1.png" />
             </div>
             <div class="box_text_block">
-              <p>作成・更新に高コスト、</p>
-              <p>活用度は低い</p>
+              <p class="box_text_top">作成・更新に高コスト、</p>
+              <p class="box_text_top">活用度は低い</p>
             </div>
           </div>
         </div>
 
-        <div class="box_content two">
+        <div class="box_content three">
           <div class="box_title_content two">
             <p>一般的なAIチャット</p>
           </div>
@@ -354,8 +342,8 @@
               <img src="./img/pc/group-96-1.png" />
             </div>
             <div class="box_text_block">
-              <p>浅い</p>
-              <p>(FAQベースの定型回答のみ)</p>
+              <p class="box_text_top">浅い</p>
+              <p class="box_text_kakko">(FAQベースの定型回答のみ)</p>
             </div>
           </div>
           <div class="content_flex two">
@@ -363,8 +351,8 @@
               <img src="./img/pc/group-94-1.png" />
             </div>
             <div class="box_text_block">
-              <p>部分的</p>
-              <p>(単純なQ&Aは対応可、深い思考は不可)</p>
+              <p class="box_text_top">部分的</p>
+              <p class="box_text_kakko">(単純なQ&Aは対応可、深い思考は不可)</p>
             </div>
           </div>
           <div class="content_flex three">
@@ -372,8 +360,8 @@
               <img src="./img/pc/group-94-1.png" />
             </div>
             <div class="box_text_block">
-              <p>導入は低コストだが</p>
-              <p>成果は限定的</p>
+              <p class="box_text_top">導入は低コストだが</p>
+              <p class="box_text_top">成果は限定的</p>
             </div>
           </div>
         </div>
@@ -478,7 +466,7 @@
         </div>
       </div>
 
-      <div class="white_box_content">
+      <div class="white_box_content step2">
         <div class="white_box_top_img_flex_center">
           <img class="white_box_top_img" src="./img/pc/group-353.png" />
         </div>
@@ -699,7 +687,19 @@
   </section>
 
   <footer class="footer_content">
-    <p>©2025 taiziii Inc.All Rights Reserved.</p>
+    <p class="copylight_text">©2025 taiziii Inc.All Rights Reserved.</p>
+    <div class="footer_content_fixed hidden">
+      <div class="button_content_flex_sp hidden">
+        <div class="bg_blue_button">
+          <p>ホワイトペーパーを無料DL</p>
+        </div>
+        <a class="box_button" href="https://taiziii.com/contact/">
+          <p>導入に向けた</p>
+          <p>個別相談をする</p>
+        </a>
+      </div>
+    </div>
+
   </footer>
 
   <script src="./js/index.js"></script>
