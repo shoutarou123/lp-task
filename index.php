@@ -19,7 +19,7 @@
   <section class="fv">
     <div class="bg_img">
       <div class="logo_content_flex">
-        <img class="logo_img" src="./img/pc/グループ 18 1.png" />
+        <img class="logo_img" src="./img/pc/group-18-1.png" />
         <img class="logo_img_sp hidden" src="./img/sp/Clip path group.png" />
         <img class="button_img" src="./img/pc/Group 5.png" />
       </div>
@@ -28,7 +28,7 @@
         <p class="sub_title_text">現場に眠るノウハウをDXで活かしたい経営層・部門責任者・人事担当の方へ</p>
       </div>
       <div class="catchphrase_img_content">
-        <img class="catchphrase_img" src="./img/pc/キャッチコピー@2x 2.png" />
+        <img class="catchphrase_img" src="./img/pc/catch-2x2.png" />
         <img class="catchphrase_img hidden" src="./img/sp/25_スキルリレー_design 1.png" />
 
       </div>
@@ -40,7 +40,7 @@
         <div class="dl_button_content">
           <a class="dl_button_bgimg" href="#">
             <span class="dl_text">ホワイトペーパーを無料DL</span>
-            <img class="icon_img" src="./img/pc/グループ 491 1.png" />
+            <img class="icon_img" src="./img/pc/group-491-1.png" />
             <img class="icon_img_sp hidden" src="./img/sp/Group 6.png" />
           </a>
         </div>
@@ -53,8 +53,8 @@
 
       <div class="position_content">
         <div class="chat_img_content">
-          <img src="./img/pc/グループ 492 1.png" />
-          <img class="chat_img hidden" src="./img/sp/グループ 20 2.png" />
+          <img src="./img/pc/group-492-1.png" />
+          <img class="chat_img hidden" src="./img/sp/group-20-2.png" />
         </div>
 
         <div class="button_content_flex_sp hidden">
@@ -92,21 +92,21 @@
 
       <div class="box_content_flex">
         <div class="white_box">
-          <img src="./img/pc/グループ 11 1.png" />
+          <img src="./img/pc/group-11-1.png" />
           <p>知見の属人化</p>
           <span>
             ベテラン社員の経験や判断基準が個人に依存し、共有されないまま業務がブラックボックス化してしまう。
           </span>
         </div>
         <div class="white_box">
-          <img src="./img/pc/グループ 12 1.png" />
+          <img src="./img/pc/group-12-1.png" />
           <p>継承の限界</p>
           <span>
             マニュアルや文書に残らない暗黙知が多く、異動・退職のたびにノウハウが途切れてしまう。
           </span>
         </div>
         <div class="white_box">
-          <img src="./img/pc/グループ 13 1.png" />
+          <img src="./img/pc/group-13-1.png" />
           <p>育成コストの増大</p>
           <span>
             若手や新任社員の教育に時間とコストがかかり、即戦力化が進まない。
@@ -149,7 +149,7 @@
       <div class="rectangle_solution">
         <div class="rectangle_solution_flex one">
           <div class="check_img_content">
-            <img src="./img/pc/パス 35 1.png" />
+            <img src="./img/pc/pass-35-1.png" />
           </div>
           <div class="rectangle_solution_text_content">
             <p class="one">ノウハウの可視化</p>
@@ -159,7 +159,7 @@
 
         <div class="rectangle_solution_flex two">
           <div class="check_img_content two">
-            <img src="./img/pc/パス 35 1.png" />
+            <img src="./img/pc/pass-35-1.png" />
           </div>
           <div class="rectangle_solution_text_content two">
             <p>リスクの低減</p>
@@ -169,7 +169,7 @@
 
         <div class="rectangle_solution_flex three">
           <div class="check_img_content">
-            <img src="./img/pc/パス 35 1.png" />
+            <img src="./img/pc/pass-35-1.png" />
           </div>
           <div class="rectangle_solution_text_content three">
             <p>スピーディな展開</p>
@@ -260,13 +260,13 @@
         <div class="white_rectangle_content three">
           <img src="./img/pc/Group 7 (1).png" />
           <p>AIエージェントで再現</p>
-          <img class="white_rectangle_img_sp hidden" src="./img/sp/グループ 20 1 (1).png" />
+          <img class="white_rectangle_img_sp hidden" src="./img/sp/group-20-1-(1).png" />
           <span class="white_rectangle_text three">
             学習した知識や思考パターンを、人に質問するような対話形式で再現。 新人教育から日々の業務支援まで、状況に応じて最適なアドバイスを即座に提供します。
           </span>
         </div>
         <div class="white_rectangle_img">
-          <img src="./img/pc/グループ 20 1.png" />
+          <img src="./img/pc/group-20-1.png" />
         </div>
       </div>
     </div>
@@ -316,7 +316,7 @@
           </div>
           <div class="content_flex">
             <div class="kigou_img_content">
-              <img src="./img/pc/グループ 96 1.png" />
+              <img src="./img/pc/group-96-1.png" />
             </div>
             <div class="box_text_block">
               <p>限定的</p>
@@ -325,7 +325,7 @@
           </div>
           <div class="content_flex two">
             <div class="kigou_img_content">
-              <img src="./img/pc/グループ 96 1.png" />
+              <img src="./img/pc/group-96-1.png" />
             </div>
             <div class="box_text_block">
               <p>なし</p>
@@ -334,7 +334,7 @@
           </div>
           <div class="content_flex three">
             <div class="kigou_img_content">
-              <img src="./img/pc/グループ 94 1.png" />
+              <img src="./img/pc/group-94-1.png" />
             </div>
             <div class="box_text_block">
               <p>作成・更新に高コスト、</p>
@@ -349,7 +349,7 @@
           </div>
           <div class="content_flex">
             <div class="kigou_img_content">
-              <img src="./img/pc/グループ 96 1.png" />
+              <img src="./img/pc/group-96-1.png" />
             </div>
             <div class="box_text_block">
               <p>浅い</p>
@@ -358,7 +358,7 @@
           </div>
           <div class="content_flex two">
             <div class="kigou_img_content">
-              <img src="./img/pc/グループ 94 1.png" />
+              <img src="./img/pc/group-94-1.png" />
             </div>
             <div class="box_text_block">
               <p>部分的</p>
@@ -367,7 +367,7 @@
           </div>
           <div class="content_flex three">
             <div class="kigou_img_content">
-              <img src="./img/pc/グループ 94 1.png" />
+              <img src="./img/pc/group-94-1.png" />
             </div>
             <div class="box_text_block">
               <p>導入は低コストだが</p>
@@ -382,7 +382,7 @@
           </div>
           <div class="content_flex four first">
             <div class="kigou_img_content">
-              <img src="./img/pc/グループ 102 1.png" />
+              <img src="./img/pc/group-102-1.png" />
             </div>
             <div class="box_text_block four">
               <p>実務知・ノウハウを含め、</p>
@@ -391,7 +391,7 @@
           </div>
           <div class="content_flex four second">
             <div class="kigou_img_content">
-              <img src="./img/pc/グループ 102 1.png" />
+              <img src="./img/pc/group-102-1.png" />
             </div>
             <div class="box_text_block four">
               <p>熟練者の思考パターンを</p>
@@ -400,7 +400,7 @@
           </div>
           <div class="content_flex four third">
             <div class="kigou_img_content">
-              <img src="./img/pc/グループ 101 1.png" />
+              <img src="./img/pc/group-101-1.png" />
             </div>
             <div class="box_text_block four">
               <p>長期的に効率化と</p>
@@ -442,7 +442,7 @@
     <div class="white_box_content_flex">
       <div class="white_box_content">
         <div class="white_box_top_img_flex_center">
-          <img class="white_box_top_img" src="./img/pc/グループ 351.png" />
+          <img class="white_box_top_img" src="./img/pc/group-351.png" />
         </div>
         <div class="step_content_flex_center">
           <div class="step_content">
@@ -459,15 +459,15 @@
             <div class="check_content_box_flex_center">
               <div class="check_content_box">
                 <div class="check_content_flex">
-                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <img class="check_img" src="./img/pc/group-105-1.png" />
                   <p>課題・利用目的を明確化</p>
                 </div>
                 <div class="check_content_flex">
-                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <img class="check_img" src="./img/pc/group-105-1.png" />
                   <p>保有データやナレッジを整理</p>
                 </div>
                 <div class="check_content_flex">
-                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <img class="check_img" src="./img/pc/group-105-1.png" />
                   <p>AI活用に向けた最適な設計を策定</p>
                 </div>
               </div>
@@ -478,7 +478,7 @@
 
       <div class="white_box_content">
         <div class="white_box_top_img_flex_center">
-          <img class="white_box_top_img" src="./img/pc/グループ 353.png" />
+          <img class="white_box_top_img" src="./img/pc/group-353.png" />
         </div>
         <div class="step_content_flex_center">
           <div class="step_content">
@@ -495,15 +495,15 @@
             <div class="check_content_box_flex_center">
               <div class="check_content_box">
                 <div class="check_content_flex step2 top">
-                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <img class="check_img" src="./img/pc/group-105-1.png" />
                   <p>実際のデータを使ったトライアル実施</p>
                 </div>
                 <div class="check_content_flex">
-                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <img class="check_img" src="./img/pc/group-105-1.png" />
                   <p>AIモデルの学習・改善</p>
                 </div>
                 <div class="check_content_flex">
-                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <img class="check_img" src="./img/pc/group-105-1.png" />
                   <p>テスト運用による精度チューニング</p>
                 </div>
               </div>
@@ -514,7 +514,7 @@
 
       <div class="white_box_content">
         <div class="white_box_top_img_flex_center">
-          <img class="white_box_top_img" src="./img/pc/グループ 352.png" />
+          <img class="white_box_top_img" src="./img/pc/group-352.png" />
         </div>
         <div class="step_content_flex_center">
           <div class="step_content three">
@@ -531,15 +531,15 @@
             <div class="check_content_box_flex_center">
               <div class="check_content_box">
                 <div class="check_content_flex step3 top">
-                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <img class="check_img" src="./img/pc/group-105-1.png" />
                   <p>PoC成果を踏まえて全社展開へ拡張</p>
                 </div>
                 <div class="check_content_flex">
-                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <img class="check_img" src="./img/pc/group-105-1.png" />
                   <p>業務フローに組み込み定着化</p>
                 </div>
                 <div class="check_content_flex">
-                  <img class="check_img" src="./img/pc/グループ 105 1.png" />
+                  <img class="check_img" src="./img/pc/group-105-1.png" />
                   <p>継続的な改善とサポートを提供</p>
                 </div>
               </div>
@@ -577,7 +577,7 @@
           </p>
         </div>
         <div class="pricing_white_box_img_content">
-          <img src="./img/pc/アセット 2 6.png" />
+          <img src="./img/pc/aset-2-6.png" />
         </div>
       </div>
 
@@ -606,11 +606,11 @@
 
         <div class="qa_content">
           <div class="q_flex">
-            <img class="q_img" src="./img/pc/グループ 495 1.png" />
+            <img class="q_img" src="./img/pc/group-495-1.png" />
             <p>導入にはどのくらいの期間がかかりますか？</p>
             <div class="minus_plus_img_content">
-              <img class="minus_img" src="./img/pc/グループ 493 1.png" />
-              <img class="plus_img hidden" src="./img/pc/グループ 494 1.png" />
+              <img class="minus_img" src="./img/pc/group-493-1.png" />
+              <img class="plus_img hidden" src="./img/pc/group-494-1.png" />
             </div>
           </div>
           <div class="answer_content">
@@ -619,11 +619,11 @@
           <div class="border_bottom_faq"></div>
 
           <div class="q_flex">
-            <img class="q_img" src="./img/pc/グループ 495 1.png" />
+            <img class="q_img" src="./img/pc/group-495-1.png" />
             <p>導入に必要な専門知識はありますか？</p>
             <div class="minus_plus_img_content two">
-              <img class="minus_img" src="./img/pc/グループ 493 1.png" />
-              <img class="plus_img hidden" src="./img/pc/グループ 494 1.png" />
+              <img class="minus_img" src="./img/pc/group-493-1.png" />
+              <img class="plus_img hidden" src="./img/pc/group-494-1.png" />
             </div>
           </div>
           <div class="answer_content">
@@ -632,11 +632,11 @@
           <div class="border_bottom_faq"></div>
 
           <div class="q_flex">
-            <img class="q_img" src="./img/pc/グループ 495 1.png" />
+            <img class="q_img" src="./img/pc/group-495-1.png" />
             <p>コストは高くつきませんか？</p>
             <div class="minus_plus_img_content three">
-              <img class="minus_img" src="./img/pc/グループ 493 1.png" />
-              <img class="plus_img hidden" src="./img/pc/グループ 494 1.png" />
+              <img class="minus_img" src="./img/pc/group-493-1.png" />
+              <img class="plus_img hidden" src="./img/pc/group-494-1.png" />
             </div>
           </div>
           <div class="answer_content">
@@ -645,11 +645,11 @@
           <div class="border_bottom_faq"></div>
 
           <div class="q_flex">
-            <img class="q_img" src="./img/pc/グループ 495 1.png" />
+            <img class="q_img" src="./img/pc/group-495-1.png" />
             <p>実際の効果はどのように測定できますか？</p>
             <div class="minus_plus_img_content four">
-              <img class="minus_img" src="./img/pc/グループ 493 1.png" />
-              <img class="plus_img hidden" src="./img/pc/グループ 494 1.png" />
+              <img class="minus_img" src="./img/pc/group-493-1.png" />
+              <img class="plus_img hidden" src="./img/pc/group-494-1.png" />
             </div>
           </div>
           <div class="answer_content">
@@ -680,7 +680,7 @@
       <div class="dl_button_content">
         <a class="dl_button_bgimg" href="#">
           <span class="dl_text">ホワイトペーパーを無料DL</span>
-          <img class="icon_img" src="./img/pc/グループ 491 1.png" />
+          <img class="icon_img" src="./img/pc/group-491-1.png" />
           <img class="icon_img_sp hidden" src="./img/sp/Group 6.png" />
         </a>
       </div>
