@@ -116,7 +116,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../img/pc/Rectangle\ 4.png");
+  background-image: url("../img/pc/Rectangle-4.png");
   background-repeat: no-repeat;
   background-position: center;
   gap: 12px;
@@ -306,7 +306,7 @@ li {
 
 /* ************* SOLUTION セクション ******************** */
 .solution_section {
-  background-image: url("../img/pc/Mask\ group\ \(3\).png");
+  background-image: url("../img/pc/Maskgroup-3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -632,7 +632,7 @@ li {
 }
 
 .box_title_content.four {
-  background-image: url("../img/pc/Rectangle\ 35\ \(1\).png");
+  background-image: url("../img/pc/Rectangle-35.png");
 }
 
 .box_text_block.four p {
@@ -799,7 +799,7 @@ li {
 
 /* ************ pricing section ************ */
 .pricing_section {
-  background-image: url("../img/pc/Mask\ group\ \(4\).png");
+  background-image: url("../img/pc/Maskgroup-4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -975,7 +975,7 @@ li {
 
 /* *************** last section ********************* */
 .last_section {
-  background-image: url("../img/pc/Mask\ group\ \(5\).png");
+  background-image: url("../img/pc/Maskgroup-5.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1537,7 +1537,7 @@ li {
   }
 
   .dl_button_bgimg {
-    background-image: url("../img/sp/Rectangle\ 4\ \(1\).png");
+    background-image: url("../img/sp/Rectangle-4.png");
     width: 400px;
   }
 
@@ -1564,7 +1564,7 @@ li {
   }
 
   .button_content_flex_sp.hidden {
-    background-image: url("../img/sp/Rectangle\ 80.png");
+    background-image: url("../img/sp/Rectangle-80.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1581,7 +1581,7 @@ li {
   }
 
   .bg_blue_button {
-    background-image: url("../img/sp/Rectangle\ 78.png");
+    background-image: url("../img/sp/Rectangle-78.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
