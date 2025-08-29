@@ -655,26 +655,46 @@
             <p>PoCで定量的な改善指標を設定し、投資対効果を可視化します。</p>
           </div>
           <div class="border_bottom_faq"></div>
-
-
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
   </section>
 
+  <section class="last_section">
+    <div class="last_title_content">
+      <p>熟練者の知見をAIに継承し、未来につなげませんか？</p>
+      <p class="last_title_sp hidden">熟練者の知見をAIに継承し、</p>
+      <p class="last_title_sp hidden">未来につなげませんか？</p>
+    </div>
+    <div class="last_section_text_content">
+      <p>まずは、貴社の課題をお聞かせください。</p>
+      <p>熟練者の知見をAIに継承し、次世代へとつなげることで、</p>
+      <p>持続的な競争力強化を実現します。</p>
+      <p class="last_section_text hidden">
+        まずは、貴社の課題をお聞かせください。熟練者の知見をAIに継承し、次世代へとつなげることで、持続的な競争力強化を実現します。
+      </p>
+    </div>
 
+    <div class="button_content_flex">
+      <div class="dl_button_content">
+        <a class="dl_button_bgimg" href="#">
+          <span class="dl_text">ホワイトペーパーを無料DL</span>
+          <img class="icon_img" src="./img/pc/グループ 491 1.png" />
+          <img class="icon_img_sp hidden" src="./img/sp/Group 6.png" />
+        </a>
+      </div>
+      <div class="donu_button_content">
+        <div class="donu_button_rectangle">
+          <a class="donu_text" href="#">導入に向けた個別相談をする</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <footer class="footer_content">
+    <p>©2025 taiziii Inc.All Rights Reserved.</p>
+  </footer>
 
   <script src="./js/index.js"></script>
 </body>
-
 </html>
