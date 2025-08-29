@@ -1,9 +1,9 @@
 html {
-  font-family: "Noto Sans JP", "Roboto", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: "Noto Sans JP", "DM Sans", "Roboto", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
-.englich-text {
-  font-family: "Noto Sans JP", "Roboto", sans-serif;
+.english-text {
+  font-family: "Noto Sans JP", "DM Sans", "Roboto", sans-serif;
 }
 
 * {
@@ -207,6 +207,7 @@ li {
 .blue_rectangle_text.black {
   font-size: 18px;
   font-weight: 600;
+  font-family: "DM Sans", "Noto Sans JP", "Roboto", sans-serif;
 }
 
 .usinaware_text_content p,
@@ -326,7 +327,6 @@ li {
   display: flex;
   width: 1300px;
   margin: 0 auto;
-  /* background-color: #0192e2; */
 }
 
 .rectangle_solution_flex {
@@ -411,13 +411,6 @@ li {
 .fukidashi_bg_img.three p {
   width: 180px;
 }
-
-/*  */
-.damy {
-  width: 2000px;
-  background-color: aqua;
-}
-/*  */
 
 /* ************* HOW section ************** */
 .how_section {
@@ -840,7 +833,6 @@ li {
 
 .pricing_white_box_flex {
   display: flex;
-  /* justify-content: center; */
   padding-top: 40px;
   margin-bottom: 36px;
 }
@@ -970,7 +962,7 @@ li {
 }
 
 .minus_plus_img_content.two {
-  margin-left: 377px;
+  margin-left: 375px;
 }
 
 .minus_plus_img_content.three {
@@ -1051,6 +1043,7 @@ li {
 .footer_content p {
   font-size: 12px;
   font-weight: 400;
+  font-family: "DM Sans", "Noto Sans JP", "Roboto", sans-serif;
 }
 
 @media screen and (max-width: 1360px) {
