@@ -19,10 +19,10 @@
   <section class="fv">
     <div class="bg_img">
       <div class="logo_content_flex">
-        <img class="logo_img" src="./img/pc/group-18-1.png" />
-        <img class="logo_img_sp hidden" src="./img/sp/Clip path group.png" />
+        <img class="logo_img" src="./img/pc/group-18-1.png" alt="ロゴ画像" />
+        <img class="logo_img_sp hidden" src="./img/sp/Clip path group.png" alt="ロゴ画像" />
         <a href="https://taiziii.com/contact/">
-          <img class="button_img" src="./img/pc/Group 5.png" />
+          <img class="button_img" src="./img/pc/Group 5.png" alt="ボタン画像" />
         </a>
       </div>
 
@@ -30,8 +30,8 @@
         <p class="sub_title_text">現場に眠るノウハウをDXで活かしたい経営層・部門責任者・人事担当の方へ</p>
       </div>
       <div class="catchphrase_img_content">
-        <img class="catchphrase_img" src="./img/pc/catch-2x2.png" />
-        <img class="catchphrase_img hidden" src="./img/sp/25_スキルリレー_design 1.png" />
+        <img class="catchphrase_img" src="./img/pc/catch-2x2.png" alt="キャッチコピー画像" />
+        <img class="catchphrase_img hidden" src="./img/sp/25_スキルリレー_design 1.png" alt="キャッチコピー画像" />
 
       </div>
       <div class="intai_text_content">
@@ -42,8 +42,6 @@
         <div class="dl_button_content">
           <a class="dl_button_bgimg" href="#">
             <span class="dl_text">ホワイトペーパーを無料DL</span>
-            <img class="icon_img" src="./img/pc/group-491-1.png" />
-            <img class="icon_img_sp hidden" src="./img/sp/Group 6.png" />
           </a>
         </div>
         <div class="donu_button_content">
@@ -55,8 +53,8 @@
 
       <div class="position_content">
         <div class="chat_img_content">
-          <img src="./img/pc/group-492-1.png" />
-          <img class="chat_img hidden" src="./img/sp/group-20-2.png" />
+          <img src="./img/pc/group-492-1.png" alt="チャットイメージ画像" />
+          <img class="chat_img hidden" src="./img/sp/group-20-2.png" alt="チャットイメージ画像" />
         </div>
       </div>
 
@@ -131,7 +129,7 @@
     </div>
 
     <div class="earth_img_sp hidden">
-      <img src="./img/sp/Group 3 1.png" />
+      <img src="./img/sp/Group 3 1.png" alt="地球画像" />
     </div>
 
 
@@ -574,7 +572,7 @@
       <div class="ryoukin_button_content_flex_center">
         <a href="https://taiziii.com/contact/">
           <div class="ryoukin_button">
-            <p>料金の詳細を相談する
+            <p>無料相談&資料請求はこちら
           </div>
         </a>
       </div>
@@ -672,8 +670,6 @@
       <div class="dl_button_content">
         <a class="dl_button_bgimg" href="#">
           <span class="dl_text">ホワイトペーパーを無料DL</span>
-          <img class="icon_img" src="./img/pc/group-491-1.png" />
-          <img class="icon_img_sp hidden" src="./img/sp/Group 6.png" />
         </a>
       </div>
       <div class="donu_button_content">

@@ -58,7 +58,7 @@ li {
   margin-right: 32px;
   width: 262px;
   height: 66px;
-  margin-top: 5px;
+  margin-top: 12px;
 }
 
 .sub_title_content {
@@ -129,15 +129,6 @@ li {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
-}
-
-.icon_img {
-  width: 26px;
-  height: 26px;
-}
-
-.icon_img_sp.hidden {
-  display: none;
 }
 
 .rectangle_img {
@@ -3008,14 +2999,6 @@ li {
   .button_content_flex {
     gap: 16px;
     margin-bottom: 48px;
-  }
-
-  .icon_img {
-    display: none;
-  }
-
-  .icon_img_sp.hidden {
-    display: block;
   }
 
   .button_content_flex_sp.hidden {
