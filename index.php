@@ -42,11 +42,8 @@
         <div class="dl_button_content">
           <a class="dl_button_bgimg" href="#">
             <span class="dl_text">ホワイトペーパーを無料DL</span>
-          </a>
-        </div>
-        <div class="donu_button_content">
-          <a class="donu_button_rectangle" href="https://taiziii.com/contact/">
-            <div class="donu_text">導入に向けた個別相談をする</div>
+            <img class="icon_img" src="./img/pc/group-491-1.png" />
+            <img class="icon_img_sp hidden" src="./img/sp/Group 6.png" />
           </a>
         </div>
       </div>
@@ -670,13 +667,9 @@
       <div class="dl_button_content">
         <a class="dl_button_bgimg" href="#">
           <span class="dl_text">ホワイトペーパーを無料DL</span>
-        </a>
-      </div>
-      <div class="donu_button_content">
-        <a class="donu_button_rectangle" href="https://taiziii.com/contact/">
-          <div class="donu_text">
-            導入に向けた個別相談をする
-          </div>
+          <img class="icon_img" src="./img/pc/group-491-1.png" />
+          <img class="icon_img_sp hidden" src="./img/sp/Group 6.png" />
+
         </a>
       </div>
     </div>
@@ -689,10 +682,6 @@
         <div class="bg_blue_button">
           <p>ホワイトペーパーを無料DL</p>
         </div>
-        <a class="box_button" href="https://taiziii.com/contact/">
-          <p>導入に向けた</p>
-          <p>個別相談をする</p>
-        </a>
       </div>
     </div>
 

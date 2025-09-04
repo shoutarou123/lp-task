@@ -131,6 +131,15 @@ li {
   color: #fff;
 }
 
+.icon_img {
+  width: 26px;
+  height: 26px;
+}
+
+.icon_img_sp.hidden {
+  display: none;
+}
+
 .rectangle_img {
   width: 400px;
   height: 60px;
@@ -2990,6 +2999,14 @@ li {
   .catchphrase_img.hidden {
     width: auto;
     height: 145px;
+  }
+
+  .icon_img {
+    display: none;
+  }
+
+  .icon_img_sp.hidden {
+    display: block;
   }
 
   .intai_text_content {
